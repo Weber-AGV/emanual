@@ -30,7 +30,7 @@ product_group: dxl_xl430
 
 ## [Performance Graph](#performance-graph)
 
-![](/assets/images/dxl/x/xl430_w250_performance_graph.png)
+![](/assets/images/dxl/x/xl430_w250_performance_graph.jpg)
 
 {% include en/dxl/note_performance_graph.md %}
 
@@ -358,7 +358,7 @@ This is a target velocity trajectory created by Profile. Operating method can be
 
 > Old XL430-W250 (This type has been discontinued)
 
-![](/assets/images/dxl/x/x-series_cable_assembly.png)
+![](/assets/images/dxl/x/assembly/common/x-series_cable_assembly.png)
 
 {% capture hollow_assy %}
 **CAUTION** : DYNAMIXEL-X series cable assembly through hollow case

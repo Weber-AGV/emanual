@@ -12,7 +12,8 @@ tab_title2: Melodic
 tab_title3: Noetic
 tab_title4: Dashing
 tab_title5: Foxy
-tab_title6: Windows
+tab_title6: Humble
+tab_title7: Windows
 sidebar:
   title: TurtleBot3
   nav: "turtlebot3"
@@ -35,30 +36,24 @@ page_number: 17
 </section>
 
 <section data-id="{{ page.tab_title3 }}" class="tab_contents">
-
-**NOTE**: This feature in the selected ROS distribution is not available yet. 
-{: .notice}
-
+{% include en/platform/turtlebot3/manipulation/manipulation_intro_noetic.md %}
 </section>
 
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
-
 {% include en/platform/turtlebot3/manipulation/manipulation_intro_dashing.md %}
-
 </section>
 
 <section data-id="{{ page.tab_title5 }}" class="tab_contents">
-
-**NOTE**: This feature in the selected ROS distribution is not available yet. 
-{: .notice} 
-
+{% include en/platform/turtlebot3/manipulation/manipulation_intro_foxy.md %}
 </section>
 
 <section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_intro_humble.md %}
+</section>
 
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
 **NOTE**: This feature in the selected ROS distribution is not available yet. 
 {: .notice}
-
 </section>
 
 ## [TurtleBot3 with OpenMANIPULATOR](#turtlebot3-with-openmanipulator)
@@ -71,10 +66,26 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_tb3_with_openmanipulator_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_tb3_with_openmanipulator_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_tb3_with_openmanipulator_dashing.md %}
 </section>
 
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_tb3_with_openmanipulator_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_tb3_with_openmanipulator_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
+</section>
 
 ## [Software Setup](#software-setup)
 
@@ -86,8 +97,25 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_software_setup_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_software_setup_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_software_setup_dashing.md %}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_software_setup_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_software_setup_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
 </section>
 
 ## [Hardware Assembly](#hardware-assembly)
@@ -104,10 +132,27 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_opencr_setup_ros.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_opencr_setup_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_opencr_setup_dashing.md %}
 
-**Note**: This feature is available for Kinetic. 
+**Note**: This feature is available for Foxy. 
+{: .notice}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_opencr_setup_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_opencr_setup_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
 {: .notice}
 </section>
 
@@ -121,8 +166,25 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_bringup_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_bringup_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_bringup_dashing.md %}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_bringup_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_bringup_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
 </section>
 
 ## [Simulation](#simulation)
@@ -135,8 +197,25 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_simulation_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_simulation_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_simulation_dashing.md %}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_simulation_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_simulation_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
 </section>
 
 ## [Operate the Actual OpenMANIPULATOR](#operate-the-actual-openmanipulator)
@@ -149,9 +228,25 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_operate_the_actual_openmanipulator_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_operate_the_actual_openmanipulator_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_operate_the_actual_openmanipulator_dashing.md %}
+</section>
 
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_operate_the_actual_openmanipulator_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_operate_the_actual_openmanipulator_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
 </section>
 
 ## [SLAM](#slam)
@@ -164,8 +259,25 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_slam_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_slam_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_slam_dashing.md %}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_slam_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_slam_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
 </section>
 
 ## [Navigation](#navigation)
@@ -178,6 +290,23 @@ page_number: 17
 {% include en/platform/turtlebot3/manipulation/manipulation_navigation_melodic.md %}
 </section>
 
+<section data-id="{{ page.tab_title3 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_navigation_noetic.md %}
+</section>
+
 <section data-id="{{ page.tab_title4 }}" class="tab_contents">
 {% include en/platform/turtlebot3/manipulation/manipulation_navigation_dashing.md %}
+</section>
+
+<section data-id="{{ page.tab_title5 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_navigation_foxy.md %}
+</section>
+
+<section data-id="{{ page.tab_title6 }}" class="tab_contents">
+{% include en/platform/turtlebot3/manipulation/manipulation_navigation_humble.md %}
+</section>
+
+<section data-id="{{ page.tab_title7 }}" class="tab_contents">
+**NOTE**: This feature in the selected ROS distribution is not available yet. 
+{: .notice}
 </section>

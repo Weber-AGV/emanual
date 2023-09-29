@@ -26,6 +26,8 @@ sidebar:
 | 동작 전압 |  5 V (XL-330) ~ 24 V (PRO / X Series)   |
 | 허용전류  | 1 A(아두이노), 10 A(터미널 전원 커넥터) |
 
+{% include kr/dxl/warning.md %}
+
 ## [지원되는 다이나믹셀](#지원되는-다이나믹셀)
 
 | 다이나믹셀 시리즈 |                                                              |                                  |                                 |                                |                 |
@@ -36,7 +38,7 @@ sidebar:
 | **EX** `1`        | [EX-106+]                                                    |                                  |                                 |                                |                 |
 | **MX**            | [MX-12W]                                                     | [MX-28], [MX-28(2.0)]            | [MX-64], [MX-64(2.0)]           | [MX-106], [MX-106(2.0)]        |                 |
 | **XL**            | [XL320]                                                      | [XL430-W250]                     | [XL330-M077] <br/> [XL330-M288] | [2XL430-W250]                  |                 |
-| **XC**            | [XC330-T288]<br>[XC330-T181]<br>[XC330-M288]<br>[XC330-M181] | [XC430-W150]<br/> [XC430-W240]   | [2XC430-W250]                   |                                |                 |
+| **XC**            | [XC330-T288]<br>[XC330-T181]<br>[XC330-M288]<br>[XC330-M181] | [XC430-W150]<br/> [XC430-W240]<br/>[XC430-T150BB]<br/> [XC430-T240BB]   | [2XC430-W250]                   |                                |                 |
 | **XM**            | [XM430-W210]                                                 | [XM430-W350]                     | [XM540-W150]                    | [XM540-W270]                   |                 |
 | **XH**            | [XH430-W210]<br/> [XH430-W350]                               | [XH430-V210]<br/> [XH430-V350]   | [XH540-W150]<br/> [XH540-W270]  | [XH540-V150]<br/> [XH540-V270] |                 |
 | **XD**            | [XD430-T210-R]<br>[XD430-T350-R]                             | [XD540-T150-R]<br>[XD540-T270-R] |                                 |                                |                 |
@@ -285,6 +287,22 @@ bool syncWriteBegin(void);
 bool syncWriteEnd(void);
 ```
 
+# [참고자료](#참고자료)
+
+## [커넥터 정보](#커넥터-정보)
+
+|     항목     |                             TTL                              |                            RS-485                            |                            XL-320 (TTL)                            |
+|:----------:|:------------------------------------------------------------:|:------------------------------------------------------------:|:-------------------------------------------------------------------:|
+|    핀번호     |                `1` GND<br>`2` VDD<br>`3` DATA                |         `1` GND<br>`2` VDD<br>`3` DATA+<br>`4` DATA-         |                   `1` GND<br>`2` VDD<br>`3` DATA                    |
+|   다이어그램    |        ![](/assets/images/dxl/jst_b3beha_diagram.png)        |        ![](/assets/images/dxl/jst_b4beha_diagram.png)        |         ![](/assets/images/dxl/molex_532530370_diagram.png)         |
+|    하우징     |   ![](/assets/images/dxl/JST_EHR-3.png)<br />[JST EHR-03]    |   ![](/assets/images/dxl/JST_EHR-4.png)<br />[JST EHR-04]    | ![](/assets/images/dxl/molex_510650300.png)<br />[MOLEX 51065-0300] |
+|   PCB 헤더   | ![](/assets/images/dxl/JST_B3B_EH-A.png)<br />[JST B3B-EH-A] | ![](/assets/images/dxl/JST_B4B-EH-A.png)<br />[JST B4B-EH-A] | ![](/assets/images/dxl/molex_532530370.png)<br />[MOLEX 53253-0370] |
+| Crimp 터미널  |                     [JST SEH-001T-P0.6]                      |                     [JST SEH-001T-P0.6]                      |                         [MOLEX 50212-8000]                          |
+| 다이나믹셀 전선규격 |                            21 AWG                            |                            21 AWG                            |                               24 AWG                                |
+
+
+{% include kr/dxl/485_ttl_connection_x.md %}
+
 [AX-12W]: /docs/kr/dxl/ax/ax-12w/
 [AX-12+/12A]: /docs/kr/dxl/ax/ax-12a/
 [AX-18F/18A]: /docs/kr/dxl/ax/ax-18a/
@@ -310,6 +328,8 @@ bool syncWriteEnd(void);
 [2XL430-W250]: /docs/kr/dxl/x/2xl430-w250/
 [XC430-W150]: /docs/kr/dxl/x/xc430-w150/
 [XC430-W240]: /docs/kr/dxl/x/xc430-w240/
+[XC430-T150BB]: /docs/kr/dxl/x/xc430-t150bb/
+[XC430-T240BB]: /docs/kr/dxl/x/xc430-t240bb/
 [2XC430-W250]: /docs/kr/dxl/x/2xc430-w250/
 [XC330-T288]: /docs/kr/dxl/x/xc330-t288
 [XC330-T181]: /docs/kr/dxl/x/xc330-t181
@@ -403,3 +423,11 @@ bool syncWriteEnd(void);
 [peek()]: /docs/en/popup/arduino_api/peek/
 [flush()]: /docs/en/popup/arduino_api/flush/
 [write()]: /docs/en/popup/arduino_api/rc100_write/
+[JST EHR-03]: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+[JST EHR-04]: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+[JST B3B-EH-A]: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+[JST B4B-EH-A]: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+[JST SEH-001T-P0.6]: http://www.jst-mfg.com/product/pdf/eng/eEH.pdf
+[MOLEX 51065-0300]: https://www.molex.com/molex/products/datasheet.jsp?part=active/0510650300_CRIMP_HOUSINGS.xml&channel=Product
+[MOLEX 53253-0370]: https://www.molex.com/molex/products/datasheet.jsp?part=active/0532530370_PCB_HEADERS.xml
+[MOLEX 50212-8000]: https://www.molex.com/molex/products/datasheet.jsp?part=active/0502128000_CRIMP_TERMINALS.xml

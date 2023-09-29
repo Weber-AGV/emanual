@@ -34,7 +34,7 @@ If have any questions or issues, please get a ticket in [github issue](https://g
 | **RX**           | [RX-10]                        | [RX-24F]                       | [RX-28]                        | [RX-64]                        |                 |
 | **MX**           | [MX-12W]                       | [MX-28], [MX-28(2.0)]          | [MX-64], [MX-64(2.0)]          | [MX-106], [MX-106(2.0)]        |                 |
 | **XL**           | [XL320]                        | [XL430-W250]                   | [2XL430-W250]                  |                                |                 |
-| **XC**           | [XC430-W150]                   | [XC430-W240]                   |                                |                                |                 |
+| **XC**           | [XC430-W150]<br/> [XC430-T150BB] | [XC430-W240] <br/> [XC430-T240BB] |                                |                                |                 |
 | **XM**           | [XM430-W210]                   | [XM430-W350]                   | [XM540-W150]                   | [XM540-W270]                   |                 |
 | **XH**           | [XH430-W210]<br/> [XH430-W350] | [XH430-V210]<br/> [XH430-V350] | [XH540-W150]<br/> [XH540-W270] | [XH540-V150]<br/> [XH540-V270] |                 |
 | **PRO L**        | [L42-10-S300-R]                | [L54-30-S500-R]                | [L54-30-S400-R]                | [L54-50-S500-R]                | [L54-50-S290-R] |
@@ -46,7 +46,7 @@ If have any questions or issues, please get a ticket in [github issue](https://g
 | **PH**           | [PH42-020-S300-R]              | [PH54-100-S500-R]              | [PH54-200-S500-R]              |                                |                 |
 
 
-**DYNMAIXEL Workbench** metapackage contains 3 packages:  **Controllers**, **Operators**, and **Toolbox**. The **Controllers** package introduces how to employ DYNAMIXEL on different operating mode with DYNMAIXEL Workbench library(Toolbox).  In addition, the Operators demonstrates some straightforward examples by operating Controllers.
+**DYNAMIXEL Workbench** metapackage contains 3 packages:  **Controllers**, **Operators**, and **Toolbox**. The **Controllers** package introduces how to employ DYNAMIXEL on different operating mode with DYNAMIXEL Workbench library(Toolbox).  In addition, the Operators demonstrates some straightforward examples by operating Controllers.
 
 - [ROS WIKI](http://wiki.ros.org/dynamixel_workbench)
 
@@ -1995,6 +1995,8 @@ Return load. Unit is %
 [2XL430-W250]: /docs/en/dxl/x/2xl430-w250/
 [XC430-W150]: /docs/en/dxl/x/xc430-w150/
 [XC430-W240]: /docs/en/dxl/x/xc430-w240/
+[XC430-W150BB]: /docs/en/dxl/x/xc430-w150bb/
+[XC430-W240BB]: /docs/en/dxl/x/xc430-w240bb/
 [XM430-W210]: /docs/en/dxl/x/xm430-w210/
 [XM430-W350]: /docs/en/dxl/x/xm430-w350/
 [XH430-W210]: /docs/en/dxl/x/xh430-w210/

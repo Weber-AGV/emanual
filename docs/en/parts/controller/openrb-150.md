@@ -3,7 +3,7 @@ layout: archive
 lang: en
 ref: openrb-150
 read_time: true
-share: false
+share: true
 author_profile: false
 permalink: /docs/en/parts/controller/openrb-150/
 sidebar:
@@ -14,15 +14,14 @@ sidebar:
 
 # [Overview](#overview)
 
-![](/assets/images/parts/controller/openrb-150/OpenRB-150_modeling_quarterview.png)
+![](/assets/images/parts/controller/openrb-150/openrb_fonts.png){: width="300px"}  
+![](/assets/images/parts/controller/openrb-150/openrb_overview_01.png){: width="300px"}
 
-> OpenRB-150
+The OpenRB-150 is a new open source Arduino compatible embedded controller.
 
-The OpenRB-150 is a new open source Arduino compatible Microcontroller.
+The controller features the same pinout and the form factor as the Arduino MKR to ensure compatibility with physical accessories, and has support for programming using the Arduino IDE.
 
-The controller features the same pinout and the form factor as the Arduino MKR to ensure compatibility with phyisical accessories, and has support for programming using the Arduino IDE.
-
-The OpenRB-150 also features 4 dedicated DYNAMIXEL ports, and supports the DYNAMIXEL Wizard 2.0 testing and calibration softwere.
+The OpenRB-150 also features 4 dedicated DYNAMIXEL ports, and supports the DYNAMIXEL Wizard 2.0 testing and calibration software.
 
 **NOTE** : Specialty firmware is required to utilize the OpenRB-150 with DYNAMIXEL Wizard. This firmware is included in the OpenRB board manager package.
 {: .notice}
@@ -34,8 +33,9 @@ The OpenRB-150 also features 4 dedicated DYNAMIXEL ports, and supports the DYNAM
 | MICROCONTROLLER                 | SAMD21 Cortex-M0+ 32bit low power ARM® MCU                  |
 | BOARD POWER SUPPLY              | (USB 3.0) 5 V<br />(VIN -or Terminal) 3.7 ~ 12.6 V          |
 | SUPPORTED BATTERY               | Li-Po 1 - 3 cell (3.7 - 11.1 V)<br />XT60 connector ready   |
-| DC CURRENT FOR 3.3V PIN         | 300 mA                                                    |
+| DC CURRENT FOR 3.3V PIN         | 300 mA                                                      |
 | DC CURRENT FOR 5V PIN           | 300 mA                                                      |
+| DC CURRENT FOR DYNAMIXEL PORTs  | 3,000 mA                                                    |
 | CIRCUIT OPERATING VOLTAGE       | 3.3 V                                                       |
 | DIGITAL I/O PINS                | 24                                                          |
 | PWM PINS                        | 12 (0, 1, 2, 3, 4, 5, 6, 7, 8, 10, A3 - or 18 -, A4 -or 19) |
@@ -61,13 +61,14 @@ The OpenRB-150 also features 4 dedicated DYNAMIXEL ports, and supports the DYNAM
 `*` 24V models require a separate power connection.
 
 {% capture openrb-150_caution_01 %}
-**WARNING**
 - The current from the USB port is limited to 500mA with the built-in fuse, but a high current draw may cause damage to USB ports used to power the OpenRB-150.
 - For applications requiring rapid movement or high torque, use of the terminal block to supply power is recommended.
 - Always confirm the operating voltage of your DYNAMIXEL modules before connecting them to the OpenRB-150.
 {% endcapture %}
 
 <div class="notice--danger">{{ openrb-150_caution_01 | markdownify }}</div>
+
+{% include en/dxl/warning.md %}
 
 # [Hardware Layout](#hardware-layout)
 
@@ -132,6 +133,14 @@ In order to properly supply power to the controller and DYNAMIXEL, the power sou
 
 ## [DYNAMIXEL Ports](#dynamixel-ports)
 4 DYNAMIXEL Ports are ready for any TTL supported DYNAMIXEL.  
+
+{% include en/dxl/jst_ttl.md %}
+
+![](/assets/images/dxl/x/x_series_ttl_pin.png)
+
+**NOTE**: Above circuit is designed for 5V or 5V tolerant MCU. Otherwise, use a Level Shifter to match the voltage of MCU.
+{: .notice}
+
 RS-485 supported DYNAMIXEL can also be used when connected with the [DYNAMIXEL Communication Bridge].
 
 ![](/assets/images/parts/interface/dxl_bridge/dxl_bridge_product_front.png)
@@ -162,7 +171,7 @@ Three LED indicates the status of the OpenRB-150 controller.
 #define LED_BUILTIN PIN_LED
 
 // DYNAMIXEL POWER FET
-#define DXL_PWR_SW  (31u)
+#define BDPIN_DXL_PWR_EN  (31u)
 ```
 
 # [Connecting Power](#connecting-power)
@@ -318,10 +327,13 @@ If error occurs during the Upload process, please try uploading the sketch in th
 
 # [Downloads](#downloads)
 
-- [OpenRB-150 Schematic (PDF)]
-- [OpenRB-150 3D Modeling (STEP)]
-- OpenRB-150 Board Manager ([GitHub Repo](https://github.com/ROBOTIS-GIT/OpenRB-150), [Zip])
-- DYNAMIXEL2Arduino Library ([GitHub Repo](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino), [Zip])
+- OpenRB-150 BOM ([BOM](https://www.robotis.com/service/download.php?no=2168))
+- OpenRB-150 Schematic ([PDF](https://www.robotis.com/service/download.php?no=2117))
+- OpenRB-150 2D Drawing ([PDF](https://www.robotis.com/service/download.php?no=2120), [DWG](https://www.robotis.com/service/download.php?no=2119))
+- OpenRB-150 3D Modeling ([STL](https://www.robotis.com/service/download.php?no=2118), [STEP](https://www.robotis.com/service/download.php?no=2121))
+- OpenRB-150 Gerber ([GBR](https://www.robotis.com/service/download.php?no=2167))
+- OpenRB-150 Board Manager ([GitHub Repo](https://github.com/ROBOTIS-GIT/OpenRB-150))
+- DYNAMIXEL2Arduino Library ([GitHub Repo](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino))
 
 [X Series]: /docs/en/dxl/x/
 [MX Series]: /docs/en/dxl/mx/
@@ -330,5 +342,3 @@ If error occurs during the Upload process, please try uploading the sketch in th
 [DYNAMIXEL Wizard 2.0]: /docs/en/software/dynamixel/dynamixel_wizard2/
 [Arduino IDE]: https://www.arduino.cc/en/software
 [DYNAMIXEL Communication Bridge]: /docs/en/parts/interface/dxl_bridge/
-[OpenRB-150 Schematic (PDF)]: /docs/en/parts/controller/openrb-150/
-[OpenRB-150 3D Modeling (STEP)]: /docs/en/parts/controller/openrb-150/

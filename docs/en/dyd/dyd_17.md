@@ -20,7 +20,7 @@ product_group: all-dyd
 
 ## [Specifications](#specifications)
 
-|               Properties                |               Unit               | DYD-14-051 | DYD-14-099 | Note |
+|               Properties                |               Unit               | DYD-17-051 | DYD-17-099 | Note |
 |:---------------------------------------:|:--------------------------------:|:----------:|:-----------------:|
 |               Gear ratio                |                \-                |     51     |        99         |
 |     Rated output torque (@2,000rpm)     |                Nm                |     11     |        16         |
@@ -30,11 +30,11 @@ product_group: all-dyd
 |           Maximum input speed           |               rpm                |   8,500    |       8,500       |
 |            Moment of inertia            | x10<sup>-4</sup> kgm<sup>2</sup> |   0.284    |       0.322       |
 |                Backlash                 |              arcmin              |    <3.0    |       <3.0        |
-|       Efficiency (@2,000rpm, 20℃)       |                %                 |     70     |        70         |
+|       Efficiency (@2,000rpm, 20℃)      |                %                 |     70     |        70         |
 |             Starting torque             |               cNm                |     4      |         3         |
-|            Back-Drive torque            |                Nm                |     5      |         5         |
+|            Back-drive torque            |                Nm                |     5      |         5         |
 |              Service life               |               hour               |   7,000    |       7,000       |
-|                Dimension                |                mm                | Ø78 × 34.2 |    Ø78 × 34.2     |
+|               Dimensions                |                mm                | Ø78 × 34.2 |    Ø78 × 34.2     |
 |                 Weight                  |                g                 |    600     |        600        |
 
 **NOTE**: The specification and figures in the list are subject to update for the continuous product performance improvement.
@@ -52,7 +52,7 @@ Various input shaft options can be selected with the DYD. See the following tabl
 
 # [Drawings](#drawings)
 
-![](/assets/images/dyd/dyd_17_drawing_update.png)
+![](/assets/images/dyd/drawing/dyd_17_drawing_update_enlarged.png)
 
 # [Options & Assembly Tolerance](#options--assembly-tolerance)
 

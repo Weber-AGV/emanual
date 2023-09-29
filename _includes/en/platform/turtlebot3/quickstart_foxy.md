@@ -10,9 +10,9 @@
 
 {% capture warning_01 %}
 **Compatibility WARNING**  
-- `Jetson Nano` does not support native Ubuntu 20.04. Please refer to [NVIDIA developer forum]{: .blank} for more details.
+- `Jetson Nano` does not support Ubuntu 20.04 and later. Please refer to [NVIDIA developer forum]{: .blank} for more details.
 
-[NVIDIA developer forum]: https://forums.developer.nvidia.com/t/when-will-jetpack-move-to-ubuntu-20-04/142517
+[NVIDIA developer forum]: https://forums.developer.nvidia.com/t/jetpack-5-0-2/223564/2
 {% endcapture %}
 <div class="notice--danger">{{ warning_01 | markdownify }}</div>
 

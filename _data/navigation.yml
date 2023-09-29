@@ -60,7 +60,7 @@ main:
         url: /dxl/x/xw430-t200/
       - title: "XW430-T333"
         titlekr: "XW430-T333"
-        url: /dxl/x/xw430-t333/        
+        url: /dxl/x/xw430-t333/
     - title: "&nbsp;&nbsp;&nbsp;&nbsp;XD Series"
       titlekr: "&nbsp;&nbsp;&nbsp;&nbsp;XD 시리즈"
       children:
@@ -75,7 +75,7 @@ main:
         url: /dxl/x/xd430-t210/
       - title: "XD430-T350"
         titlekr: "XD430-T350"
-        url: /dxl/x/xd430-t350/        
+        url: /dxl/x/xd430-t350/
     - title: "&nbsp;&nbsp;&nbsp;&nbsp;XH Series"
       titlekr: "&nbsp;&nbsp;&nbsp;&nbsp;XH 시리즈"
       children:
@@ -102,7 +102,7 @@ main:
         url: /dxl/x/xh430-v210/
       - title: "XH430-V350"
         titlekr: "XH430-V350"
-        url: /dxl/x/xh430-v350/        
+        url: /dxl/x/xh430-v350/
     - title: "&nbsp;&nbsp;&nbsp;&nbsp;XM Series"
       titlekr: "&nbsp;&nbsp;&nbsp;&nbsp;XM 시리즈"
       children:
@@ -117,7 +117,7 @@ main:
         url: /dxl/x/xm430-w210/
       - title: "XM430-W350"
         titlekr: "XM430-W350"
-        url: /dxl/x/xm430-w350/        
+        url: /dxl/x/xm430-w350/
     - title: "&nbsp;&nbsp;&nbsp;&nbsp;XC Series"
       titlekr: "&nbsp;&nbsp;&nbsp;&nbsp;XC 시리즈"
       children:
@@ -130,6 +130,12 @@ main:
       - title: "XC430-W240"
         titlekr: "XC430-W240"
         url: /dxl/x/xc430-w240/
+      - title: "XC430-T150BB"
+        titlekr: "XC430-T150BB"
+        url: /dxl/x/xc430-t150bb/
+      - title: "XC430-T240BB"
+        titlekr: "XC430-T240BB"
+        url: /dxl/x/xc430-t240bb/        
       - title: "XC330-T288"
         titlekr: "XC330-T288"
         url: /dxl/x/xc330-t288/
@@ -141,7 +147,7 @@ main:
         url: /dxl/x/xc330-m181/
       - title: "XC330-M288"
         titlekr: "XC330-M288"
-        url: /dxl/x/xc330-m288/        
+        url: /dxl/x/xc330-m288/
     - title: "&nbsp;&nbsp;&nbsp;&nbsp;XL Series"
       titlekr: "&nbsp;&nbsp;&nbsp;&nbsp;XL 시리즈"
       children:
@@ -159,7 +165,7 @@ main:
         url: /dxl/x/xl330-m288/
       - title: "XL-320"
         titlekr: "XL-320"
-        url: /dxl/x/xl320/     
+        url: /dxl/x/xl320/
     - title: "MX Series"
       titlekr: "MX 시리즈"
       url: /dxl/mx/
@@ -595,7 +601,7 @@ main:
         url: /parts/controller/cm-150/
       - title: "CM-151"
         titlekr: "CM-151"
-        url: /parts/controller/cm-151/        
+        url: /parts/controller/cm-151/
       - title: "CM-200"
         titlekr: "CM-200"
         url: /parts/controller/cm-200/
@@ -609,11 +615,11 @@ main:
       - title: "CM-700"
         titlekr: "CM-700"
         url: /parts/controller/cm-700/
+      - title: "OpenRB-150"
+        titlekr: "OpenRB-150"
+        url: /parts/controller/openrb-150/
       - titlekr: "OpenCM7.0"
         url: /parts/controller/opencm7/
-      # - title: "OpenRB-150"
-      #   titlekr: "OpenRB-150"
-      #   url: /parts/controller/openrb-150/
       - title: "OpenCM9.04"
         titlekr: "OpenCM9.04"
         url: /parts/controller/opencm904/
@@ -653,6 +659,8 @@ main:
       - title: "BT-410 Dongle"
         titlekr: "BT-410 동글"
         url: /parts/communication/bt-410-dongle/
+      - titlekr: "BT-430 동글"
+        url: /parts/communication/bt-430-dongle/
       - title: "*ZIG-100/110A"
         titlekr: "*ZIG-100/110A"
         url: /parts/communication/zig-110/
@@ -749,6 +757,12 @@ main:
     url: /faq/faq_dynamixel/
     urlkr: /faq/faq_dynamixel/
     children:
+      - title: "DYNAMIXEL Selection Guide"
+        titlekr: "다이나믹셀 선택 가이드"
+        url: /reference/dxl-selection-guide/
+      - title: "DYNAMIXEL Quick Start Guide"
+        titlekr: "다이나믹셀 퀵 스타트 가이드"
+        url: /dxl/dxl-quick-start-guide/
       - title: "DYNAMIXEL"
         titlekr: "다이나믹셀"
         url: /faq/faq_dynamixel/
@@ -893,7 +907,7 @@ all-controller:
   - title: "For DYNAMIXEL SYSTEM"
     titlekr: "DYNAMIXEL SYSTEM"
     url: /parts/all-controller/#for-platform
-    urlkr: /parts/all-controller/#플랫폼
+    urlkr: /parts/all-controller/#다이나믹셀-시스템용
   - title: "For ROBOTIS ENGINEER"
     titlekr: "STEAMCUP ENGINEER 전용"
     url: /parts/all-controller/#for-robotis-engineer
@@ -905,23 +919,23 @@ all-controller:
   - title: "For ROBOTIS BIOLOID"
     titlekr: "바이올로이드 전용"
     url: /parts/all-controller/#for-robotis-engineer
-    urlkr: /parts/all-controller/#로보티즈-바이올로이드-전용
+    urlkr: /parts/all-controller/#바이올로이드-전용
   - title: "For Play 600 & 700"
     titlekr: "STEAMCUP PLAY 600 & 700 전용"
     url: /parts/all-controller/#for-robotis-play-600--700
-    urlkr: /parts/all-controller/#steamcup-play-600--700-전용용
+    urlkr: /parts/all-controller/#steamcup-play-600--700-전용
   - title: "For OLLO"
     titlekr: "올로 전용"
     url: /parts/all-controller/#for-robotis-ollo
-    urlkr: /parts/all-controller/#로보티즈-올로-전용
+    urlkr: /parts/all-controller/#올로-전용
   - title: "For ROBOTIS DREAM I & II"
     titlekr: "ROBOTIS DREAM I & STEAMCUP DREAM II 전용"
     url: /parts/all-controller/#for-robotis-dream-i--ii
-    urlkr: /parts/all-controller/#robotis-dream-i-steamcup-dream-ii-전용
+    urlkr: /parts/all-controller/#robotis-dream-i--steamcup-dream-ii-전용
   - title: "For ROBOTIS Smart I & II & III"
     titlekr: "ROBOTIS SMART I & II & STEAMCUP SMART III 전용"
     url: /parts/all-controller/#for-robotis-smart-i--ii--iii
-    urlkr: /parts/all-controller/#robotis-smart-i--ii-steamcup-smart-iii-전용
+    urlkr: /parts/all-controller/#robotis-smart-i--ii--steamcup-smart-iii-전용
 
 all-interface:
   - title: "Communication Interfaces"
@@ -4528,7 +4542,7 @@ xl330-m077:
         url: /dxl/x/xl330-m077/#present-temperature146
       - title: "Backup Ready(147)"
         titlekr: "Backup Ready(147)"
-        url: /dxl/x/xl330-m077/#backup-ready147    
+        url: /dxl/x/xl330-m077/#backup-ready147
       - title: "Indirect Address"
         titlekr: "Indirect Address"
         url: /dxl/x/xl330-m077/#indirect-address
@@ -4568,6 +4582,10 @@ xl330-m077:
       titlekr: "도면"
       url: /dxl/x/xl330-m077/#drawings
       urlkr: /dxl/x/xl330-m077/#도면
+    - title: "Moment of Inertia"
+      titlekr: "Moment of Inertia"
+      url: /dxl/x/xl330-m077/#moment-of-inertia
+      urlkr: /dxl/x/xl330-m077/#moment-of-inertia
 
 #XL330-M288
 xl330-m288:
@@ -4794,6 +4812,11 @@ xl330-m288:
       titlekr: "도면"
       url: /dxl/x/xl330-m288/#drawings
       urlkr: /dxl/x/xl330-m288/#도면
+    - title: "Moment of Inertia"
+      titlekr: "Moment of Inertia"
+      url: /dxl/x/xl330-m288/#moment-of-inertia
+      urlkr: /dxl/x/xl330-m288/#moment-of-inertia
+
 
 #XC330-M288
 xc330-m288:
@@ -5020,6 +5043,10 @@ xc330-m288:
       titlekr: "도면"
       url: /dxl/x/xc330-m288/#drawings
       urlkr: /dxl/x/xc330-m288/#도면
+    - title: "Moment of Inertia"
+      titlekr: "Moment of Inertia"
+      url: /dxl/x/xc330-m288/#moment-of-inertia
+      urlkr: /dxl/x/xc330-m288/#moment-of-inertia
 
 #XC330-M181
 xc330-m181:
@@ -5027,6 +5054,10 @@ xc330-m181:
   titlekr: "주요 사양"
   url: /dxl/x/xc330-m181/#specifications
   urlkr: /dxl/x/xc330-m181/#주요-사양
+- title: "Performance Graph"
+  titlekr: "성능 그래프"
+  url: /dxl/x/xc330-m181/#performance-graph
+  urlkr: /dxl/x/xc330-m181/#성능-그래프
 - title: "Control Table"
   titlekr: "컨트롤 테이블"
   url: /dxl/x/xc330-m181/#control-table
@@ -5246,6 +5277,10 @@ xc330-m181:
       titlekr: "도면"
       url: /dxl/x/xc330-m181/#drawings
       urlkr: /dxl/x/xc330-m181/#도면
+    - title: "Moment of Inertia"
+      titlekr: "Moment of Inertia"
+      url: /dxl/x/xc330-m181/#moment-of-inertia
+      urlkr: /dxl/x/xc330-m181/#moment-of-inertia
 
 #XC330-M288
 xc330-m288:
@@ -5253,6 +5288,10 @@ xc330-m288:
   titlekr: "주요 사양"
   url: /dxl/x/xc330-m288/#specifications
   urlkr: /dxl/x/xc330-m288/#주요-사양
+- title: "Performance Graph"
+  titlekr: "성능 그래프"
+  url: /dxl/x/xc330-m288/#performance-graph
+  urlkr: /dxl/x/xc330-m288/#성능-그래프
 - title: "Control Table"
   titlekr: "컨트롤 테이블"
   url: /dxl/x/xc330-m288/#control-table
@@ -5472,6 +5511,10 @@ xc330-m288:
       titlekr: "도면"
       url: /dxl/x/xc330-m288/#drawings
       urlkr: /dxl/x/xc330-m288/#도면
+    - title: "Moment of Inertia"
+      titlekr: "Moment of Inertia"
+      url: /dxl/x/xc330-m288/#moment-of-inertia
+      urlkr: /dxl/x/xc330-m288/#moment-of-inertia
 
 #XC330-T181
 xc330-t181:
@@ -5479,6 +5522,10 @@ xc330-t181:
   titlekr: "주요 사양"
   url: /dxl/x/xc330-t181/#specifications
   urlkr: /dxl/x/xc330-t181/#주요-사양
+- title: "Performance Graph"
+  titlekr: "성능 그래프"
+  url: /dxl/x/xc330-t181/#performance-graph
+  urlkr: /dxl/x/xc330-t181/#성능-그래프
 - title: "Control Table"
   titlekr: "컨트롤 테이블"
   url: /dxl/x/xc330-t181/#control-table
@@ -5699,12 +5746,16 @@ xc330-t181:
       url: /dxl/x/xc330-t181/#drawings
       urlkr: /dxl/x/xc330-t181/#도면
 
-#XC330-T181
+#XC330-T288
 xc330-t288:
 - title: "Specifications"
   titlekr: "주요 사양"
   url: /dxl/x/xc330-t288/#specifications
   urlkr: /dxl/x/xc330-t288/#주요-사양
+- title: "Performance Graph"
+  titlekr: "성능 그래프"
+  url: /dxl/x/xc330-t288/#performance-graph
+  urlkr: /dxl/x/xc330-t288/#성능-그래프
 - title: "Control Table"
   titlekr: "컨트롤 테이블"
   url: /dxl/x/xc330-t288/#control-table
@@ -6194,7 +6245,7 @@ xl430-w250:
             url: /dxl/x/xl430-w250/#present-temperature146
           - title: "Backup Ready(147)"
             titlekr: "Backup Ready(147)"
-            url: /dxl/x/xl430-w250/#backup-ready147        
+            url: /dxl/x/xl430-w250/#backup-ready147
           - title: "Indirect Address"
             titlekr: "Indirect Address"
             url: /dxl/x/xl430-w250/#indirect-address
@@ -6206,14 +6257,48 @@ xl430-w250:
     url: /dxl/x/xl430-w250/#how-to-assemble
     urlkr: /dxl/x/xl430-w250/#조립-예시
     children:
-      - title: "Wiring through Back Case"
-        titlekr: "배선 예시"
-        url: /dxl/x/xl430-w250/#wiring-through-back-case
-        urlkr: /dxl/x/xl430-w250/#배선-예시
-      - title: "Option Frame Assembly"
-        titlekr: "옵션프레임 조립"
-        url: /dxl/x/xl430-w250/#option-frame-assembly
-        urlkr: /dxl/x/xl430-w250/#옵션프레임-조립
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/xl430-w250/#horn-assembly
+        urlkr: /dxl/x/xl430-w250/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/xl430-w250/#idler-horn-assembly
+            urlkr: /dxl/x/xl430-w250/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/xl430-w250/#frame-assembly
+        urlkr: /dxl/x/xl430-w250/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/xl430-w250/#how-to-use-spacer-ring
+            urlkr: /dxl/x/xl430-w250/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/xl430-w250/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/xl430-w250/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/xl430-w250/#hinge-frame-assembly
+            urlkr: /dxl/x/xl430-w250/#힌지-프레임-조립하기
+          - title: "Side Frame Assembly"
+            titlekr: "사이드 프레임 조립하기"
+            url: /dxl/x/xl430-w250/#side-frame-assembly
+            urlkr: /dxl/x/xl430-w250/#사이드-프레임-조립하기
+          - title: "Gripper Assembly"
+            titlekr: "그리퍼 조립하기"
+            url: /dxl/x/xl430-w250/#gripper-assembly
+            urlkr: /dxl/x/xl430-w250/#그리퍼-조립하기
+          - title: "Frame Combination"
+            titlekr: "프레임 활용 하기"
+            url: /dxl/x/xl430-w250/#frame-combination
+            urlkr: /dxl/x/xl430-w250/#프레임-활용-하기
+          - title: "Custom Frame Assembly"
+            titlekr: "기타 프레임 조립 예시"
+            url: /dxl/x/xl430-w250/#custom-frame-assembly
+            urlkr: /dxl/x/xl430-w250/#기타-프레임-조립-예시
   - title: "Reference"
     titlekr: "참고자료"
     url: /dxl/x/xl430-w250/#reference
@@ -6243,6 +6328,10 @@ xl430-w250:
         titlekr: "도면"
         url: /dxl/x/xl430-w250/#drawings
         urlkr: /dxl/x/xl430-w250/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xl430-w250/#moment-of-inertia
+        urlkr: /dxl/x/xl430-w250/#moment-of-inertia
 
 #XC430-W150 sidebar
 xc430-w150:
@@ -6437,23 +6526,48 @@ xc430-w150:
     url: /dxl/x/xc430-w150/#how-to-assemble
     urlkr: /dxl/x/xc430-w150/#조립-예시
     children:
-      - title: "Wiring through Back Case"
-        titlekr: "배선 예시"
-        url: /dxl/x/xc430-w150/#wiring-through-back-case
-        urlkr: /dxl/x/xc430-w150/#배선-예시
-      - title: "Option Frame Assembly"
-        titlekr: "옵션프레임 조립"
-        url: /dxl/x/xc430-w150/#option-frame-assembly
-        urlkr: /dxl/x/xc430-w150/#옵션프레임-조립
-#  - title: "Maintenance"
-#    titlekr: "유지보수"
-#    url: /dxl/x/xc430-w150/#maintenance
-#    urlkr: /dxl/x/xc430-w150/#유지보수
-#    children:
-#      - title: "Horn, Gear Replacement"
-#        titlekr: "혼과 기어 교체"
-#        url: /dxl/x/xc430-w150/#horn-and-gear-replacement
-#        urlkr: /dxl/x/xc430-w150/#혼과-기어-교체
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/xc430-w150/#horn-assembly
+        urlkr: /dxl/x/xc430-w150/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/xc430-w150/#idler-horn-assembly
+            urlkr: /dxl/x/xc430-w150/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/xc430-w150/#frame-assembly
+        urlkr: /dxl/x/xc430-w150/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/xc430-w150/#how-to-use-spacer-ring
+            urlkr: /dxl/x/xc430-w150/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/xc430-w150/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/xc430-w150/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/xc430-w150/#hinge-frame-assembly
+            urlkr: /dxl/x/xc430-w150/#힌지-프레임-조립하기
+          - title: "Side Frame Assembly"
+            titlekr: "사이드 프레임 조립하기"
+            url: /dxl/x/xc430-w150/#side-frame-assembly
+            urlkr: /dxl/x/xc430-w150/#사이드-프레임-조립하기
+          - title: "Gripper Assembly"
+            titlekr: "그리퍼 조립하기"
+            url: /dxl/x/xc430-w150/#gripper-assembly
+            urlkr: /dxl/x/xc430-w150/#그리퍼-조립하기
+          - title: "Frame Combination"
+            titlekr: "프레임 활용 하기"
+            url: /dxl/x/xc430-w150/#frame-combination
+            urlkr: /dxl/x/xc430-w150/#프레임-활용-하기
+          - title: "Custom Frame Assembly"
+            titlekr: "기타 프레임 조립 예시"
+            url: /dxl/x/xc430-w150/#custom-frame-assembly
+            urlkr: /dxl/x/xc430-w150/#기타-프레임-조립-예시
   - title: "Reference"
     titlekr: "참고자료"
     url: /dxl/x/xc430-w150/#reference
@@ -6483,6 +6597,10 @@ xc430-w150:
         titlekr: "도면"
         url: /dxl/x/xc430-w150/#drawings
         urlkr: /dxl/x/xc430-w150/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xc430-w150/#moment-of-inertia
+        urlkr: /dxl/x/xc430-w150/#moment-of-inertia
 
 #XC430-W240 sidebar
 xc430-w240:
@@ -6584,7 +6702,7 @@ xc430-w240:
             url: /dxl/x/xc430-w240/#minmax-position-limit48-52
           - title: "Startup Configuration(60)"
             titlekr: "Startup Configuration(60)"
-            url: /dxl/x/xc430-w240/#startup-configuration60         
+            url: /dxl/x/xc430-w240/#startup-configuration60
           - title: "Shutdown(63)"
             titlekr: "Shutdown(63)"
             url: /dxl/x/xc430-w240/#shutdown63
@@ -6677,23 +6795,48 @@ xc430-w240:
     url: /dxl/x/xc430-w240/#how-to-assemble
     urlkr: /dxl/x/xc430-w240/#조립-예시
     children:
-      - title: "Wiring through Back Case"
-        titlekr: "배선 예시"
-        url: /dxl/x/xc430-w240/#wiring-through-back-case
-        urlkr: /dxl/x/xc430-w240/#배선-예시
-      - title: "Option Frame Assembly"
-        titlekr: "옵션프레임 조립"
-        url: /dxl/x/xc430-w240/#option-frame-assembly
-        urlkr: /dxl/x/xc430-w240/#옵션프레임-조립
-#  - title: "Maintenance"
-#    titlekr: "유지보수"
-#    url: /dxl/x/xc430-w240/#maintenance
-#    urlkr: /dxl/x/xc430-w240/#유지보수
-#    children:
-#      - title: "Horn, Gear Replacement"
-#        titlekr: "혼과 기어 교체"
-#        url: /dxl/x/xc430-w240/#horn-and-gear-replacement
-#        urlkr: /dxl/x/xc430-w240/#혼과-기어-교체
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/xc430-w240/#horn-assembly
+        urlkr: /dxl/x/xc430-w240/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/xc430-w240/#idler-horn-assembly
+            urlkr: /dxl/x/xc430-w240/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/xc430-w240/#frame-assembly
+        urlkr: /dxl/x/xc430-w240/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/xc430-w240/#how-to-use-spacer-ring
+            urlkr: /dxl/x/xc430-w240/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/xc430-w240/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/xc430-w240/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/xc430-w240/#hinge-frame-assembly
+            urlkr: /dxl/x/xc430-w240/#힌지-프레임-조립하기
+          - title: "Side Frame Assembly"
+            titlekr: "사이드 프레임 조립하기"
+            url: /dxl/x/xc430-w240/#side-frame-assembly
+            urlkr: /dxl/x/xc430-w240/#사이드-프레임-조립하기
+          - title: "Gripper Assembly"
+            titlekr: "그리퍼 조립하기"
+            url: /dxl/x/xc430-w240/#gripper-assembly
+            urlkr: /dxl/x/xc430-w240/#그리퍼-조립하기
+          - title: "Frame Combination"
+            titlekr: "프레임 활용 하기"
+            url: /dxl/x/xc430-w240/#frame-combination
+            urlkr: /dxl/x/xc430-w240/#프레임-활용-하기
+          - title: "Custom Frame Assembly"
+            titlekr: "기타 프레임 조립 예시"
+            url: /dxl/x/xc430-w240/#custom-frame-assembly
+            urlkr: /dxl/x/xc430-w240/#기타-프레임-조립-예시
   - title: "Reference"
     titlekr: "참고자료"
     url: /dxl/x/xc430-w240/#reference
@@ -6723,6 +6866,549 @@ xc430-w240:
         titlekr: "도면"
         url: /dxl/x/xc430-w240/#drawings
         urlkr: /dxl/x/xc430-w240/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xc430-w240/#moment-of-inertia
+        urlkr: /dxl/x/xc430-w240/#moment-of-inertia
+
+#XC430-T150BB sidebar
+xc430-t150bb:
+  - title: "Specifications"
+    titlekr: "주요 사양"
+    url: /dxl/x/xc430-t150bb/#specifications
+    urlkr: /dxl/x/xc430-t150bb/#주요-사양
+    children:
+      - title: "Performance Graph"
+        titlekr: "성능 그래프"
+        url: /dxl/x/xc430-t150bb/#performance-graph
+        urlkr: /dxl/x/xc430-t150bb/#성능-그래프
+  - title: "Control Table"
+    titlekr: "컨트롤 테이블"
+    url: /dxl/x/xc430-t150bb/#control-table
+    urlkr: /dxl/x/xc430-t150bb/#컨트롤-테이블
+    children:
+      - title: "Control Table, Data, Address"
+        titlekr: "컨트롤 테이블, 데이터, 주소"
+        url: /dxl/x/xc430-t150bb/#control-table-data-address
+        urlkr: /dxl/x/xc430-t150bb/#컨트롤-테이블-데이터-주소
+        children:
+          - title: "Area(EEPROM, RAM)"
+            titlekr: "영역 (EEPROM, RAM)"
+            url: /dxl/x/xc430-t150bb/#area-eeprom-ram
+            urlkr: /dxl/x/xc430-t150bb/#영역-eeprom-ram
+          - title: "Size"
+            titlekr: "크기"
+            url: /dxl/x/xc430-t150bb/#size
+            urlkr: /dxl/x/xc430-t150bb/#크기
+          - title: "Access"
+            titlekr: "접근권한"
+            url: /dxl/x/xc430-t150bb/#access
+            urlkr: /dxl/x/xc430-t150bb/#접근권한
+          - title: "Initial Value"
+            titlekr: "기본값"
+            url: /dxl/x/xc430-t150bb/#initial-value
+            urlkr: /dxl/x/xc430-t150bb/#기본값
+      - title: "EEPROM Area"
+        titlekr: "EEPROM 영역"
+        url: /dxl/x/xc430-t150bb/#control-table-of-eeprom-area
+        urlkr: /dxl/x/xc430-t150bb/#eeprom-영역
+      - title: "RAM Area"
+        titlekr: "RAM 영역"
+        url: /dxl/x/xc430-t150bb/#control-table-of-ram-area
+        urlkr: /dxl/x/xc430-t150bb/#ram-영역
+      - title: "Control Table Description"
+        titlekr: "컨트롤 테이블 설명"
+        url: /dxl/x/xc430-t150bb/#control-table-description
+        urlkr: /dxl/x/xc430-t150bb/#컨트롤-테이블-설명
+        children:
+          - title: "Model Number(0)"
+            titlekr: "Model Number(0)"
+            url: /dxl/x/xc430-t150bb/#model-number0
+          - title: "Firmware Version(6)"
+            titlekr: "Firmware Version(6)"
+            url: /dxl/x/xc430-t150bb/#firmware-version6
+          - title: "ID(7)"
+            titlekr: "ID(7)"
+            url: /dxl/x/xc430-t150bb/#id7
+          - title: "Baud Rate(8)"
+            titlekr: "Baud Rate(8)"
+            url: /dxl/x/xc430-t150bb/#baud-rate8
+          - title: "Return Delay Time(9)"
+            titlekr: "Return Delay Time(9)"
+            url: /dxl/x/xc430-t150bb/#return-delay-time9
+          - title: "Drive Mode(10)"
+            titlekr: "Drive Mode(10)"
+            url: /dxl/x/xc430-t150bb/#drive-mode10
+          - title: "Operating Mode(11)"
+            titlekr: "Operating Mode(11)"
+            url: /dxl/x/xc430-t150bb/#operating-mode11
+          - title: "Secondary(Shadow) ID(12)"
+            titlekr: "Secondary(Shadow) ID(12)"
+            url: /dxl/x/xc430-t150bb/#secondaryshadow-id12
+          - title: "Protocol Type(13)"
+            titlekr: "Protocol Type(13)"
+            url: /dxl/x/xc430-t150bb/#protocol-type13
+          - title: "Homing Offset(20)"
+            titlekr: "Homing Offset(20)"
+            url: /dxl/x/xc430-t150bb/#homing-offset20
+          - title: "Moving Threshold(24)"
+            titlekr: "Moving Threshold(24)"
+            url: /dxl/x/xc430-t150bb/#moving-threshold24
+          - title: "Temperature Limit(31)"
+            titlekr: "Temperature Limit(31)"
+            url: /dxl/x/xc430-t150bb/#temperature-limit31
+          - title: "Min/Max Voltage Limit(32,34)"
+            titlekr: "Min/Max Voltage Limit(32,34)"
+            url: /dxl/x/xc430-t150bb/#minmax-voltage-limit32-34
+          - title: "PWM Lmit(36)"
+            titlekr: "PWM Limit(36)"
+            url: /dxl/x/xc430-t150bb/#pwm-limit36
+          - title: "Velocity Limit(44)"
+            titlekr: "Velocity Limit(44)"
+            url: /dxl/x/xc430-t150bb/#velocity-limit44
+          - title: "Min/Max Position Limit(48, 52)"
+            titlekr: "Min/Max Position Limit(48, 52)"
+            url: /dxl/x/xc430-t150bb/#minmax-position-limit48-52
+          - title: "Startup Configuration(60)"
+            titlekr: "Startup Configuration(60)"
+            url: /dxl/x/xc430-t150bb/#startup-configuration60
+          - title: "Shutdown(63)"
+            titlekr: "Shutdown(63)"
+            url: /dxl/x/xc430-t150bb/#shutdown63
+          - title: "Torque Enable(64)"
+            titlekr: "Torque Enable(64)"
+            url: /dxl/x/xc430-t150bb/#torque-enable64
+          - title: "LED(65)"
+            titlekr: "LED(65)"
+            url: /dxl/x/xc430-t150bb/#led65
+          - title: "Status Return Level(68)"
+            titlekr: "Status Return Level(68)"
+            url: /dxl/x/xc430-t150bb/#status-return-level68
+          - title: "Registered Instruction(69)"
+            titlekr: "Registered Instruction(69)"
+            url: /dxl/x/xc430-t150bb/#registered-instruction69
+          - title: "Hardware Error Status(70)"
+            titlekr: "Hardware Error Status(70)"
+            url: /dxl/x/xc430-t150bb/#hardware-error-status70
+          - title: "Velocity PI Gain(76, 78)"
+            titlekr: "Velocity PI Gain(76, 78)"
+            url: /dxl/x/xc430-t150bb/#velocity-pi-gain76-78
+          - title: "Position PID Gain(80, 82, 84)"
+            titlekr: "Position PID Gain(80, 82, 84)"
+            url: /dxl/x/xc430-t150bb/#position-pid-gain80-82-84
+          - title: "Feedforward 1st/2nd Gains(88, 90)"
+            titlekr: "Feedforward 1st/2nd Gains(88, 90)"
+            url: /dxl/x/xc430-t150bb/#feedforward-1st2nd-gains88-90
+          - title: "BUS Watchdog(98)"
+            titlekr: "BUS Watchdog(98)"
+            url: /dxl/x/xc430-t150bb/#bus-watchdog98
+          - title: "Goal PWM(100)"
+            titlekr: "Goal PWM(100)"
+            url: /dxl/x/xc430-t150bb/#goal-pwm100
+          - title: "Goal Velocity(104)"
+            titlekr: "Goal Velocity(104)"
+            url: /dxl/x/xc430-t150bb/#goal-velocity104
+          - title: "Profile Acceleration(108)"
+            titlekr: "Profile Acceleration(108)"
+            url: /dxl/x/xc430-t150bb/#profile-acceleration108
+          - title: "Profile Velocity(112)"
+            titlekr: "Profile Velocity(112)"
+            url: /dxl/x/xc430-t150bb/#profile-velocity112
+          - title: "Goal Position(116)"
+            titlekr: "Goal Position(116)"
+            url: /dxl/x/xc430-t150bb/#goal-position116
+          - title: "Realtime Tick(120)"
+            titlekr: "Realtime Tick(120)"
+            url: /dxl/x/xc430-t150bb/#realtime-tick120
+          - title: "Moving(122)"
+            titlekr: "Moving(122)"
+            url: /dxl/x/xc430-t150bb/#moving122
+          - title: "Moving Status(123)"
+            titlekr: "Moving Status(123)"
+            url: /dxl/x/xc430-t150bb/#moving-status123
+          - title: "Present PWM(124)"
+            titlekr: "Present PWM(124)"
+            url: /dxl/x/xc430-t150bb/#present-pwm124
+          - title: "Present Load(126)"
+            titlekr: "Present Load(126)"
+            url: /dxl/x/xc430-t150bb/#present-load126
+          - title: "Present Velocity(128)"
+            titlekr: "Present Velocity(128)"
+            url: /dxl/x/xc430-t150bb/#present-velocity128
+          - title: "Present Position(132)"
+            titlekr: "Present Position(132)"
+            url: /dxl/x/xc430-t150bb/#present-position132
+          - title: "Velocity Trajectory(136)"
+            titlekr: "Velocity Trajectory(136)"
+            url: /dxl/x/xc430-t150bb/#velocity-trajectory136
+          - title: "Position Trajectory(140)"
+            titlekr: "Position Trajectory(140)"
+            url: /dxl/x/xc430-t150bb/#position-trajectory140
+          - title: "Present Input Voltage(144)"
+            titlekr: "Present Input Voltage(144)"
+            url: /dxl/x/xc430-t150bb/#present-input-voltage144
+          - title: "Present Temperature(146)"
+            titlekr: "Present Temperature(146)"
+            url: /dxl/x/xc430-t150bb/#present-temperature146
+          - title: "Backup Ready(147)"
+            titlekr: "Backup Ready(147)"
+            url: /dxl/x/xc430-t150bb/#backup-ready147
+          - title: "Indirect Address"
+            titlekr: "Indirect Address"
+            url: /dxl/x/xc430-t150bb/#indirect-address
+          - title: "Indirect Data"
+            titlekr: "Indirect Data"
+            url: /dxl/x/xc430-t150bb/#indirect-data
+  - title: "How to Assemble"
+    titlekr: "조립 예시"
+    url: /dxl/x/xc430-t150bb/#how-to-assemble
+    urlkr: /dxl/x/xc430-t150bb/#조립-예시
+    children:
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/xc430-t150bb/#horn-assembly
+        urlkr: /dxl/x/xc430-t150bb/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/xc430-t150bb/#idler-horn-assembly
+            urlkr: /dxl/x/xc430-t150bb/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/xc430-t150bb/#frame-assembly
+        urlkr: /dxl/x/xc430-t150bb/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/xc430-t150bb/#how-to-use-spacer-ring
+            urlkr: /dxl/x/xc430-t150bb/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/xc430-t150bb/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/xc430-t150bb/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/xc430-t150bb/#hinge-frame-assembly
+            urlkr: /dxl/x/xc430-t150bb/#힌지-프레임-조립하기
+          - title: "Side Frame Assembly"
+            titlekr: "사이드 프레임 조립하기"
+            url: /dxl/x/xc430-t150bb/#side-frame-assembly
+            urlkr: /dxl/x/xc430-t150bb/#사이드-프레임-조립하기
+          - title: "Gripper Assembly"
+            titlekr: "그리퍼 조립하기"
+            url: /dxl/x/xc430-t150bb/#gripper-assembly
+            urlkr: /dxl/x/xc430-t150bb/#그리퍼-조립하기
+          - title: "Frame Combination"
+            titlekr: "프레임 활용 하기"
+            url: /dxl/x/xc430-t150bb/#frame-combination
+            urlkr: /dxl/x/xc430-t150bb/#프레임-활용-하기
+          - title: "Custom Frame Assembly"
+            titlekr: "기타 프레임 조립 예시"
+            url: /dxl/x/xc430-t150bb/#custom-frame-assembly
+            urlkr: /dxl/x/xc430-t150bb/#기타-프레임-조립-예시
+  - title: "Reference"
+    titlekr: "참고자료"
+    url: /dxl/x/xc430-t150bb/#reference
+    urlkr: /dxl/x/xc430-t150bb/#참고자료
+    children:
+      - title: "What is the Profile"
+        titlekr: "Profile"
+        url: /dxl/x/xc430-t150bb/#what-is-the-profile
+        urlkr: /dxl/x/xc430-t150bb/#profile
+      - title: "Certifications"
+        titlekr: "인증 획득"
+        url: /dxl/x/xc430-t150bb/#certifications
+        urlkr: /dxl/x/xc430-t150bb/#인증-획득
+      - title: "Quick Start"
+        titlekr: "퀵스타트"
+        url: /dxl/x/xc430-t150bb/#quick-start
+        urlkr: /dxl/x/xc430-t150bb/#퀵스타트
+      - title: "Connector Information"
+        titlekr: "커넥터 정보"
+        url: /dxl/x/xc430-t150bb/#connector-information
+        urlkr: /dxl/x/xc430-t150bb/#커넥터-정보
+      - title: "Communication Circuit"
+        titlekr: "통신 회로"
+        url: /dxl/x/xc430-t150bb/#communication-circuit
+        urlkr: /dxl/x/xc430-t150bb/#통신-회로
+      - title: "Drawings"
+        titlekr: "도면"
+        url: /dxl/x/xc430-t150bb/#drawings
+        urlkr: /dxl/x/xc430-t150bb/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xc430-t150bb/#moment-of-inertia
+        urlkr: /dxl/x/xc430-t150bb/#moment-of-inertia
+
+
+#XC430-W240 sidebar
+xc430-t240bb:
+  - title: "Specifications"
+    titlekr: "주요 사양"
+    url: /dxl/x/xc430-t240bb/#specifications
+    urlkr: /dxl/x/xc430-t240bb/#주요-사양
+    children:
+      - title: "Performance Graph"
+        titlekr: "성능 그래프"
+        url: /dxl/x/xc430-t240bb/#performance-graph
+        urlkr: /dxl/x/xc430-t240bb/#성능-그래프
+  - title: "Control Table"
+    titlekr: "컨트롤 테이블"
+    url: /dxl/x/xc430-t240bb/#control-table
+    urlkr: /dxl/x/xc430-t240bb/#컨트롤-테이블
+    children:
+      - title: "Control Table, Data, Address"
+        titlekr: "컨트롤 테이블, 데이터, 주소"
+        url: /dxl/x/xc430-t240bb/#control-table-data-address
+        urlkr: /dxl/x/xc430-t240bb/#컨트롤-테이블-데이터-주소
+        children:
+          - title: "Area(EEPROM, RAM)"
+            titlekr: "영역 (EEPROM, RAM)"
+            url: /dxl/x/xc430-t240bb/#area-eeprom-ram
+            urlkr: /dxl/x/xc430-t240bb/#영역-eeprom-ram
+          - title: "Size"
+            titlekr: "크기"
+            url: /dxl/x/xc430-t240bb/#size
+            urlkr: /dxl/x/xc430-t240bb/#크기
+          - title: "Access"
+            titlekr: "접근권한"
+            url: /dxl/x/xc430-t240bb/#access
+            urlkr: /dxl/x/xc430-t240bb/#접근권한
+          - title: "Initial Value"
+            titlekr: "기본값"
+            url: /dxl/x/xc430-t240bb/#initial-value
+            urlkr: /dxl/x/xc430-t240bb/#기본값
+      - title: "EEPROM Area"
+        titlekr: "EEPROM 영역"
+        url: /dxl/x/xc430-t240bb/#control-table-of-eeprom-area
+        urlkr: /dxl/x/xc430-t240bb/#eeprom-영역
+      - title: "RAM Area"
+        titlekr: "RAM 영역"
+        url: /dxl/x/xc430-t240bb/#control-table-of-ram-area
+        urlkr: /dxl/x/xc430-t240bb/#ram-영역
+      - title: "Control Table Description"
+        titlekr: "컨트롤 테이블 설명"
+        url: /dxl/x/xc430-t240bb/#control-table-description
+        urlkr: /dxl/x/xc430-t240bb/#컨트롤-테이블-설명
+        children:
+          - title: "Model Number(0)"
+            titlekr: "Model Number(0)"
+            url: /dxl/x/xc430-t240bb/#model-number0
+          - title: "Firmware Version(6)"
+            titlekr: "Firmware Version(6)"
+            url: /dxl/x/xc430-t240bb/#firmware-version6
+          - title: "ID(7)"
+            titlekr: "ID(7)"
+            url: /dxl/x/xc430-t240bb/#id7
+          - title: "Baud Rate(8)"
+            titlekr: "Baud Rate(8)"
+            url: /dxl/x/xc430-t240bb/#baud-rate8
+          - title: "Return Delay Time(9)"
+            titlekr: "Return Delay Time(9)"
+            url: /dxl/x/xc430-t240bb/#return-delay-time9
+          - title: "Drive Mode(10)"
+            titlekr: "Drive Mode(10)"
+            url: /dxl/x/xc430-t240bb/#drive-mode10
+          - title: "Operating Mode(11)"
+            titlekr: "Operating Mode(11)"
+            url: /dxl/x/xc430-t240bb/#operating-mode11
+          - title: "Secondary(Shadow) ID(12)"
+            titlekr: "Secondary(Shadow) ID(12)"
+            url: /dxl/x/xc430-t240bb/#secondaryshadow-id12
+          - title: "Protocol Type(13)"
+            titlekr: "Protocol Type(13)"
+            url: /dxl/x/xc430-t240bb/#protocol-type13
+          - title: "Homing Offset(20)"
+            titlekr: "Homing Offset(20)"
+            url: /dxl/x/xc430-t240bb/#homing-offset20
+          - title: "Moving Threshold(24)"
+            titlekr: "Moving Threshold(24)"
+            url: /dxl/x/xc430-t240bb/#moving-threshold24
+          - title: "Temperature Limit(31)"
+            titlekr: "Temperature Limit(31)"
+            url: /dxl/x/xc430-t240bb/#temperature-limit31
+          - title: "Min/Max Voltage Limit(32,34)"
+            titlekr: "Min/Max Voltage Limit(32,34)"
+            url: /dxl/x/xc430-t240bb/#minmax-voltage-limit32-34
+          - title: "PWM Lmit(36)"
+            titlekr: "PWM Limit(36)"
+            url: /dxl/x/xc430-t240bb/#pwm-limit36
+          - title: "Velocity Limit(44)"
+            titlekr: "Velocity Limit(44)"
+            url: /dxl/x/xc430-t240bb/#velocity-limit44
+          - title: "Min/Max Position Limit(48, 52)"
+            titlekr: "Min/Max Position Limit(48, 52)"
+            url: /dxl/x/xc430-t240bb/#minmax-position-limit48-52
+          - title: "Startup Configuration(60)"
+            titlekr: "Startup Configuration(60)"
+            url: /dxl/x/xc430-t240bb/#startup-configuration60
+          - title: "Shutdown(63)"
+            titlekr: "Shutdown(63)"
+            url: /dxl/x/xc430-t240bb/#shutdown63
+          - title: "Torque Enable(64)"
+            titlekr: "Torque Enable(64)"
+            url: /dxl/x/xc430-t240bb/#torque-enable64
+          - title: "LED(65)"
+            titlekr: "LED(65)"
+            url: /dxl/x/xc430-t240bb/#led65
+          - title: "Status Return Level(68)"
+            titlekr: "Status Return Level(68)"
+            url: /dxl/x/xc430-t240bb/#status-return-level68
+          - title: "Registered Instruction(69)"
+            titlekr: "Registered Instruction(69)"
+            url: /dxl/x/xc430-t240bb/#registered-instruction69
+          - title: "Hardware Error Status(70)"
+            titlekr: "Hardware Error Status(70)"
+            url: /dxl/x/xc430-t240bb/#hardware-error-status70
+          - title: "Velocity PI Gain(76, 78)"
+            titlekr: "Velocity PI Gain(76, 78)"
+            url: /dxl/x/xc430-t240bb/#velocity-pi-gain76-78
+          - title: "Position PID Gain(80, 82, 84)"
+            titlekr: "Position PID Gain(80, 82, 84)"
+            url: /dxl/x/xc430-t240bb/#position-pid-gain80-82-84
+          - title: "Feedforward 1st/2nd Gains(88, 90)"
+            titlekr: "Feedforward 1st/2nd Gains(88, 90)"
+            url: /dxl/x/xc430-t240bb/#feedforward-1st2nd-gains88-90
+          - title: "BUS Watchdog(98)"
+            titlekr: "BUS Watchdog(98)"
+            url: /dxl/x/xc430-t240bb/#bus-watchdog98
+          - title: "Goal PWM(100)"
+            titlekr: "Goal PWM(100)"
+            url: /dxl/x/xc430-t240bb/#goal-pwm100
+          - title: "Goal Velocity(104)"
+            titlekr: "Goal Velocity(104)"
+            url: /dxl/x/xc430-t240bb/#goal-velocity104
+          - title: "Profile Acceleration(108)"
+            titlekr: "Profile Acceleration(108)"
+            url: /dxl/x/xc430-t240bb/#profile-acceleration108
+          - title: "Profile Velocity(112)"
+            titlekr: "Profile Velocity(112)"
+            url: /dxl/x/xc430-t240bb/#profile-velocity112
+          - title: "Goal Position(116)"
+            titlekr: "Goal Position(116)"
+            url: /dxl/x/xc430-t240bb/#goal-position116
+          - title: "Realtime Tick(120)"
+            titlekr: "Realtime Tick(120)"
+            url: /dxl/x/xc430-t240bb/#realtime-tick120
+          - title: "Moving(122)"
+            titlekr: "Moving(122)"
+            url: /dxl/x/xc430-t240bb/#moving122
+          - title: "Moving Status(123)"
+            titlekr: "Moving Status(123)"
+            url: /dxl/x/xc430-t240bb/#moving-status123
+          - title: "Present PWM(124)"
+            titlekr: "Present PWM(124)"
+            url: /dxl/x/xc430-t240bb/#present-pwm124
+          - title: "Present Load(126)"
+            titlekr: "Present Load(126)"
+            url: /dxl/x/xc430-t240bb/#present-load126
+          - title: "Present Velocity(128)"
+            titlekr: "Present Velocity(128)"
+            url: /dxl/x/xc430-t240bb/#present-velocity128
+          - title: "Present Position(132)"
+            titlekr: "Present Position(132)"
+            url: /dxl/x/xc430-t240bb/#present-position132
+          - title: "Velocity Trajectory(136)"
+            titlekr: "Velocity Trajectory(136)"
+            url: /dxl/x/xc430-t240bb/#velocity-trajectory136
+          - title: "Position Trajectory(140)"
+            titlekr: "Position Trajectory(140)"
+            url: /dxl/x/xc430-t240bb/#position-trajectory140
+          - title: "Present Input Voltage(144)"
+            titlekr: "Present Input Voltage(144)"
+            url: /dxl/x/xc430-t240bb/#present-input-voltage144
+          - title: "Present Temperature(146)"
+            titlekr: "Present Temperature(146)"
+            url: /dxl/x/xc430-t240bb/#present-temperature146
+          - title: "Backup Ready(147)"
+            titlekr: "Backup Ready(147)"
+            url: /dxl/x/xc430-t240bb/#backup-ready147
+          - title: "Indirect Address"
+            titlekr: "Indirect Address"
+            url: /dxl/x/xc430-t240bb/#indirect-address
+          - title: "Indirect Data"
+            titlekr: "Indirect Data"
+            url: /dxl/x/xc430-t240bb/#indirect-data
+  - title: "How to Assemble"
+    titlekr: "조립 예시"
+    url: /dxl/x/xc430-t240bb/#how-to-assemble
+    urlkr: /dxl/x/xc430-t240bb/#조립-예시
+    children:
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/xc430-t240bb/#horn-assembly
+        urlkr: /dxl/x/xc430-t240bb/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/xc430-t240bb/#idler-horn-assembly
+            urlkr: /dxl/x/xc430-t240bb/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/xc430-t240bb/#frame-assembly
+        urlkr: /dxl/x/xc430-t240bb/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/xc430-t240bb/#how-to-use-spacer-ring
+            urlkr: /dxl/x/xc430-t240bb/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/xc430-t240bb/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/xc430-t240bb/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/xc430-t240bb/#hinge-frame-assembly
+            urlkr: /dxl/x/xc430-t240bb/#힌지-프레임-조립하기
+          - title: "Side Frame Assembly"
+            titlekr: "사이드 프레임 조립하기"
+            url: /dxl/x/xc430-t240bb/#side-frame-assembly
+            urlkr: /dxl/x/xc430-t240bb/#사이드-프레임-조립하기
+          - title: "Gripper Assembly"
+            titlekr: "그리퍼 조립하기"
+            url: /dxl/x/xc430-t240bb/#gripper-assembly
+            urlkr: /dxl/x/xc430-t240bb/#그리퍼-조립하기
+          - title: "Frame Combination"
+            titlekr: "프레임 활용 하기"
+            url: /dxl/x/xc430-t240bb/#frame-combination
+            urlkr: /dxl/x/xc430-t240bb/#프레임-활용-하기
+          - title: "Custom Frame Assembly"
+            titlekr: "기타 프레임 조립 예시"
+            url: /dxl/x/xc430-t240bb/#custom-frame-assembly
+            urlkr: /dxl/x/xc430-t240bb/#기타-프레임-조립-예시
+  - title: "Reference"
+    titlekr: "참고자료"
+    url: /dxl/x/xc430-t240bb/#reference
+    urlkr: /dxl/x/xc430-t240bb/#참고자료
+    children:
+      - title: "What is the Profile"
+        titlekr: "Profile"
+        url: /dxl/x/xc430-t240bb/#what-is-the-profile
+        urlkr: /dxl/x/xc430-t240bb/#profile
+      - title: "Certifications"
+        titlekr: "인증 획득"
+        url: /dxl/x/xc430-t240bb/#certifications
+        urlkr: /dxl/x/xc430-t240bb/#인증-획득
+      - title: "Quick Start"
+        titlekr: "퀵스타트"
+        url: /dxl/x/xc430-t240bb/#quick-start
+        urlkr: /dxl/x/xc430-t240bb/#퀵스타트
+      - title: "Connector Information"
+        titlekr: "커넥터 정보"
+        url: /dxl/x/xc430-t240bb/#connector-information
+        urlkr: /dxl/x/xc430-t240bb/#커넥터-정보
+      - title: "Communication Circuit"
+        titlekr: "통신 회로"
+        url: /dxl/x/xc430-t240bb/#communication-circuit
+        urlkr: /dxl/x/xc430-t240bb/#통신-회로
+      - title: "Drawings"
+        titlekr: "도면"
+        url: /dxl/x/xc430-t240bb/#drawings
+        urlkr: /dxl/x/xc430-t240bb/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xc430-t240bb/#moment-of-inertia
+        urlkr: /dxl/x/xc430-t240bb/#moment-of-inertia
 
 #2XL430-W250 sidebar
 2xl430-w250:
@@ -6824,7 +7510,7 @@ xc430-w240:
             url: /dxl/x/2xl430-w250/#minmax-position-limit48-52
           - title: "Startup Configuration(60)"
             titlekr: "Startup Configuration(60)"
-            url: /dxl/x/2xl430-w250/#startup-configuration60          
+            url: /dxl/x/2xl430-w250/#startup-configuration60
           - title: "Shutdown(63)"
             titlekr: "Shutdown(63)"
             url: /dxl/x/2xl430-w250/#shutdown63
@@ -6917,14 +7603,32 @@ xc430-w240:
     url: /dxl/x/2xl430-w250/#how-to-assemble
     urlkr: /dxl/x/2xl430-w250/#조립-예시
     children:
-      - title: "Wiring through Back Case"
-        titlekr: "배선 예시"
-        url: /dxl/x/2xl430-w250/#wiring-through-back-case
-        urlkr: /dxl/x/2xl430-w250/#배선-예시
-    #  - title: "Option Frame Assembly"
-    #    titlekr: "옵션프레임 조립"
-    #    url: /dxl/x/2xl430-w250/#option-frame-assembly
-    #    urlkr: /dxl/x/2xl430-w250/#옵션프레임-조립
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/2xl430-w250/#horn-assembly
+        urlkr: /dxl/x/2xl430-w250/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/2xl430-w250/#idler-horn-assembly
+            urlkr: /dxl/x/2xl430-w250/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/2xl430-w250/#frame-assembly
+        urlkr: /dxl/x/2xl430-w250/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/2xl430-w250/#how-to-use-spacer-ring
+            urlkr: /dxl/x/2xl430-w250/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/2xl430-w250/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/2xl430-w250/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/2xl430-w250/#hinge-frame-assembly
+            urlkr: /dxl/x/2xl430-w250/#힌지-프레임-조립하기
   - title: "Reference"
     titlekr: "참고자료"
     url: /dxl/x/2xl430-w250/#reference
@@ -6954,6 +7658,10 @@ xc430-w240:
         titlekr: "도면"
         url: /dxl/x/2xl430-w250/#drawings
         urlkr: /dxl/x/2xl430-w250/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/2xl430-w250/#moment-of-inertia
+        urlkr: /dxl/x/2xl430-w250/#moment-of-inertia
 
 #2XC430-W250 sidebar
 2xc430-w250:
@@ -7055,7 +7763,7 @@ xc430-w240:
             url: /dxl/x/2xc430-w250/#minmax-position-limit48-52
           - title: "Startup Configuration(60)"
             titlekr: "Startup Configuration(60)"
-            url: /dxl/x/2xc430-w250/#startup-configuration60           
+            url: /dxl/x/2xc430-w250/#startup-configuration60
           - title: "Shutdown(63)"
             titlekr: "Shutdown(63)"
             url: /dxl/x/2xc430-w250/#shutdown63
@@ -7136,7 +7844,7 @@ xc430-w240:
             url: /dxl/x/2xc430-w250/#present-temperature146
           - title: "Backup Ready(147)"
             titlekr: "Backup Ready(147)"
-            url: /dxl/x/2xc430-w250/#backup-ready147        
+            url: /dxl/x/2xc430-w250/#backup-ready147
           - title: "Indirect Address"
             titlekr: "Indirect Address"
             url: /dxl/x/2xc430-w250/#indirect-address
@@ -7148,10 +7856,32 @@ xc430-w240:
     url: /dxl/x/2xc430-w250/#how-to-assemble
     urlkr: /dxl/x/2xc430-w250/#조립-예시
     children:
-      - title: "Wiring through Back Case"
-        titlekr: "배선 예시"
-        url: /dxl/x/2xc430-w250/#wiring-through-back-case
-        urlkr: /dxl/x/2xc430-w250/#배선-예시
+      - title: "Horn Assembly"
+        titlekr: "혼 조립하기"
+        url: /dxl/x/2xc430-w250/#horn-assembly
+        urlkr: /dxl/x/2xc430-w250/#혼-조립하기
+        children:
+          - title: "Idler Horn Assembly"
+            titlekr: "아이들러 혼 조립하기"
+            url: /dxl/x/2xc430-w250/#idler-horn-assembly
+            urlkr: /dxl/x/2xc430-w250/#아이들러-혼-조립하기
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립하기"
+        url: /dxl/x/2xc430-w250/#frame-assembly
+        urlkr: /dxl/x/2xc430-w250/#프레임-조립하기
+        children:
+          - title: "How To Use Spacer Ring"
+            titlekr: "스페이서 링 사용 방법"
+            url: /dxl/x/2xc430-w250/#how-to-use-spacer-ring
+            urlkr: /dxl/x/2xc430-w250/#스페이서-링-사용-방법
+          - title: "Precaution of Frame and Horn Assembly"
+            titlekr: "프레임과 혼 결합 시 주의 사항"
+            url: /dxl/x/2xc430-w250/#precaution-of-frame-and-horn-assembly
+            urlkr: /dxl/x/2xc430-w250/#프레임과-혼-결합-시-주의-사항
+          - title: "Hinge Frame Assembly"
+            titlekr: "힌지 프레임 조립하기"
+            url: /dxl/x/2xc430-w250/#hinge-frame-assembly
+            urlkr: /dxl/x/2xc430-w250/#힌지-프레임-조립하기
   - title: "Reference"
     titlekr: "참고자료"
     url: /dxl/x/2xc430-w250/#reference
@@ -7181,6 +7911,10 @@ xc430-w240:
         titlekr: "도면"
         url: /dxl/x/2xc430-w250/#drawings
         urlkr: /dxl/x/2xc430-w250/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/2xc430-w250/#moment-of-inertia
+        urlkr: /dxl/x/2xc430-w250/#moment-of-inertia
 
 #XM430-W210 sidebar
 xm430-w210:
@@ -7369,7 +8103,7 @@ xm430-w210:
           url: /dxl/x/xm430-w210/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xm430-w210/#backup-ready147     
+          url: /dxl/x/xm430-w210/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xm430-w210/#indirect-address
@@ -7393,7 +8127,7 @@ xm430-w210:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xm430-w210/#idler-horn-assembly
-            urlkr: /dxl/x/xm430-w210/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xm430-w210/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xm430-w210/#frame-assembly
@@ -7406,7 +8140,7 @@ xm430-w210:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xm430-w210/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xm430-w210/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xm430-w210/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xm430-w210/#hinge-frame-assembly
@@ -7439,7 +8173,7 @@ xm430-w210:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xm430-w210/#wiring-through-back-case
-        urlkr: /dxl/x/xm430-w210/#배선-예시      
+        urlkr: /dxl/x/xm430-w210/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xm430-w210/#what-is-the-profile
@@ -7572,7 +8306,7 @@ xm430-w350:
           url: /dxl/x/xm430-w350/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xm430-w350/#startup-configuration60          
+          url: /dxl/x/xm430-w350/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xm430-w350/#shutdown63
@@ -7656,7 +8390,7 @@ xm430-w350:
           url: /dxl/x/xm430-w350/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xm430-w350/#backup-ready147        
+          url: /dxl/x/xm430-w350/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xm430-w350/#indirect-address
@@ -7680,7 +8414,7 @@ xm430-w350:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xm430-w350/#idler-horn-assembly
-            urlkr: /dxl/x/xm430-w350/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xm430-w350/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xm430-w350/#frame-assembly
@@ -7693,7 +8427,7 @@ xm430-w350:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xm430-w350/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xm430-w350/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xm430-w350/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xm430-w350/#hinge-frame-assembly
@@ -7726,7 +8460,7 @@ xm430-w350:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xm430-w350/#wiring-through-back-case
-        urlkr: /dxl/x/xm430-w350/#배선-예시      
+        urlkr: /dxl/x/xm430-w350/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xm430-w350/#what-is-the-profile
@@ -7862,7 +8596,7 @@ xm540-w150:
           url: /dxl/x/xm540-w150/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xm540-w150/#startup-configuration60         
+          url: /dxl/x/xm540-w150/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xm540-w150/#shutdown63
@@ -7973,7 +8707,7 @@ xm540-w150:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xm540-w150/#idler-horn-assembly
-            urlkr: /dxl/x/xm540-w150/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xm540-w150/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xm540-w150/#frame-assembly
@@ -7986,7 +8720,7 @@ xm540-w150:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xm540-w150/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xm540-w150/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xm540-w150/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xm540-w150/#hinge-frame-assembly
@@ -8015,7 +8749,7 @@ xm540-w150:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xm540-w150/#wiring-through-back-case
-        urlkr: /dxl/x/xm540-w150/#배선-예시       
+        urlkr: /dxl/x/xm540-w150/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xm540-w150/#what-is-the-profile
@@ -8151,7 +8885,7 @@ xm540-w270:
           url: /dxl/x/xm540-w270/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xm540-w270/#startup-configuration60         
+          url: /dxl/x/xm540-w270/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xm540-w270/#shutdown63
@@ -8235,7 +8969,7 @@ xm540-w270:
           url: /dxl/x/xm540-w270/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xm540-w270/#backup-ready147        
+          url: /dxl/x/xm540-w270/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xm540-w270/#external-port-data-123
@@ -8262,7 +8996,7 @@ xm540-w270:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xm540-w270/#idler-horn-assembly
-            urlkr: /dxl/x/xm540-w270/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xm540-w270/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xm540-w270/#frame-assembly
@@ -8275,7 +9009,7 @@ xm540-w270:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xm540-w270/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xm540-w270/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xm540-w270/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xm540-w270/#hinge-frame-assembly
@@ -8304,7 +9038,7 @@ xm540-w270:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xm540-w270/#wiring-through-back-case
-        urlkr: /dxl/x/xm540-w270/#배선-예시       
+        urlkr: /dxl/x/xm540-w270/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xm540-w270/#what-is-the-profile
@@ -8437,7 +9171,7 @@ xw540-t140:
           url: /dxl/x/xw540-t140/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xw540-t140/#startup-configuration60      
+          url: /dxl/x/xw540-t140/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xw540-t140/#shutdown63
@@ -8518,7 +9252,7 @@ xw540-t140:
           url: /dxl/x/xw540-t140/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xw540-t140/#backup-ready147      
+          url: /dxl/x/xw540-t140/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xw540-t140/#indirect-address
@@ -8530,6 +9264,10 @@ xw540-t140:
     url: /dxl/x/xw540-t140/#how-to-assemble
     urlkr: /dxl/x/xw540-t140/#조립-예시
     children:
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립"
+        url: /dxl/x/xw540-t140/#frame-assembly
+        urlkr: /dxl/x/xw540-t140/#프레임-조립
       - title: "Idler Horn Assembly"
         titlekr: "아이들러 혼 조립"
         url: /dxl/x/xw540-t140/#idler-horn-assembly
@@ -8576,6 +9314,10 @@ xw540-t140:
         titlekr: "도면"
         url: /dxl/x/xw540-t140/#drawings
         urlkr: /dxl/x/xw540-t140/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xw540-t140/#moment-of-inertia
+        urlkr: /dxl/x/xw540-t140/#moment-of-inertia
 
 #XW540-T260 sidebar
 xw540-t260:
@@ -8680,7 +9422,7 @@ xw540-t260:
           url: /dxl/x/xw540-t260/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xw540-t260/#startup-configuration60   
+          url: /dxl/x/xw540-t260/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xw540-t260/#shutdown63
@@ -8764,7 +9506,7 @@ xw540-t260:
           url: /dxl/x/xw540-t260/#indirect-address
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xw540-t260/#backup-ready147        
+          url: /dxl/x/xw540-t260/#backup-ready147
         - title: "Indirect Data"
           titlekr: "Indirect Data"
           url: /dxl/x/xw540-t260/#indirect-data
@@ -8773,6 +9515,10 @@ xw540-t260:
     url: /dxl/x/xw540-t260/#how-to-assemble
     urlkr: /dxl/x/xw540-t260/#조립-예시
     children:
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립"
+        url: /dxl/x/xw540-t260/#frame-assembly
+        urlkr: /dxl/x/xw540-t260/#프레임-조립
       - title: "Idler Horn Assembly"
         titlekr: "아이들러 혼 조립"
         url: /dxl/x/xw540-t260/#idler-horn-assembly
@@ -8819,6 +9565,10 @@ xw540-t260:
         titlekr: "도면"
         url: /dxl/x/xw540-t260/#drawings
         urlkr: /dxl/x/xw540-t260/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xw540-t260/#moment-of-inertia
+        urlkr: /dxl/x/xw540-t260/#moment-of-inertia
 
 #XW430-T333 sidebar
 xw430-t333:
@@ -8923,7 +9673,7 @@ xw430-t333:
           url: /dxl/x/xw430-t333/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xw430-t333/#startup-configuration60           
+          url: /dxl/x/xw430-t333/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xw430-t333/#shutdown63
@@ -9004,7 +9754,7 @@ xw430-t333:
           url: /dxl/x/xw430-t333/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xw430-t333/#backup-ready147               
+          url: /dxl/x/xw430-t333/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xw430-t333/#indirect-address
@@ -9016,6 +9766,10 @@ xw430-t333:
     url: /dxl/x/xw430-t333/#how-to-assemble
     urlkr: /dxl/x/xw430-t333/#조립-예시
     children:
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립"
+        url: /dxl/x/xw430-t333/#frame-assembly
+        urlkr: /dxl/x/xw430-t333/#프레임-조립
       - title: "Idler Horn Assembly"
         titlekr: "아이들러 혼 조립"
         url: /dxl/x/xw430-t333/#idler-horn-assembly
@@ -9062,6 +9816,10 @@ xw430-t333:
         titlekr: "도면"
         url: /dxl/x/xw430-t333/#drawings
         urlkr: /dxl/x/xw430-t333/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xw430-t333/#moment-of-inertia
+        urlkr: /dxl/x/xw430-t333/#moment-of-inertia
 
 #XW430-T200 sidebar
 xw430-t200:
@@ -9166,7 +9924,7 @@ xw430-t200:
           url: /dxl/x/xw430-t200/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xw430-t200/#startup-configuration60                   
+          url: /dxl/x/xw430-t200/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xw430-t200/#shutdown63
@@ -9247,7 +10005,7 @@ xw430-t200:
           url: /dxl/x/xw430-t200/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xw430-t200/#backup-ready147                       
+          url: /dxl/x/xw430-t200/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xw430-t200/#indirect-address
@@ -9259,6 +10017,10 @@ xw430-t200:
     url: /dxl/x/xw430-t200/#how-to-assemble
     urlkr: /dxl/x/xw430-t200/#조립-예시
     children:
+      - title: "Frame Assembly"
+        titlekr: "프레임 조립"
+        url: /dxl/x/xw430-t200/#frame-assembly
+        urlkr: /dxl/x/xw430-t200/#프레임-조립
       - title: "Idler Horn Assembly"
         titlekr: "아이들러 혼 조립"
         url: /dxl/x/xw430-t200/#idler-horn-assembly
@@ -9305,6 +10067,10 @@ xw430-t200:
         titlekr: "도면"
         url: /dxl/x/xw430-t200/#drawings
         urlkr: /dxl/x/xw430-t200/#도면
+      - title: "Moment of Inertia"
+        titlekr: "Moment of Inertia"
+        url: /dxl/x/xw430-t200/#moment-of-inertia
+        urlkr: /dxl/x/xw430-t200/#moment-of-inertia
 
 #XD540-T150 sidebar
 xd540-t150:
@@ -9412,7 +10178,7 @@ xd540-t150:
           url: /dxl/x/xd540-t150/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xd540-t150/#startup-configuration60         
+          url: /dxl/x/xd540-t150/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xd540-t150/#shutdown63
@@ -9496,7 +10262,7 @@ xd540-t150:
           url: /dxl/x/xd540-t150/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xd540-t150/#backup-ready147          
+          url: /dxl/x/xd540-t150/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xd540-t150/#external-port-data-123
@@ -9523,7 +10289,7 @@ xd540-t150:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xd540-t150/#idler-horn-assembly
-            urlkr: /dxl/x/xd540-t150/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xd540-t150/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xd540-t150/#frame-assembly
@@ -9536,7 +10302,7 @@ xd540-t150:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xd540-t150/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xd540-t150/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xd540-t150/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xd540-t150/#hinge-frame-assembly
@@ -9697,7 +10463,7 @@ xd540-t270:
           url: /dxl/x/xd540-t270/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xd540-t270/#startup-configuration60         
+          url: /dxl/x/xd540-t270/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xd540-t270/#shutdown63
@@ -9781,7 +10547,7 @@ xd540-t270:
           url: /dxl/x/xd540-t270/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xd540-t270/#backup-ready147          
+          url: /dxl/x/xd540-t270/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xd540-t270/#external-port-data-123
@@ -9808,7 +10574,7 @@ xd540-t270:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xd540-t270/#idler-horn-assembly
-            urlkr: /dxl/x/xd540-t270/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xd540-t270/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xd540-t270/#frame-assembly
@@ -9821,7 +10587,7 @@ xd540-t270:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xd540-t270/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xd540-t270/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xd540-t270/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xd540-t270/#hinge-frame-assembly
@@ -9979,7 +10745,7 @@ xd430-t210:
           url: /dxl/x/xd430-t210/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xd430-t210/#startup-configuration60          
+          url: /dxl/x/xd430-t210/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xd430-t210/#shutdown63
@@ -10063,7 +10829,7 @@ xd430-t210:
           url: /dxl/x/xd430-t210/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xd430-t210/#backup-ready147        
+          url: /dxl/x/xd430-t210/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xd430-t210/#indirect-address
@@ -10087,7 +10853,7 @@ xd430-t210:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xd430-t210/#idler-horn-assembly
-            urlkr: /dxl/x/xd430-t210/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xd430-t210/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xd430-t210/#frame-assembly
@@ -10100,7 +10866,7 @@ xd430-t210:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xd430-t210/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xd430-t210/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xd430-t210/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xd430-t210/#hinge-frame-assembly
@@ -10133,7 +10899,7 @@ xd430-t210:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xd430-t210/#wiring-through-back-case
-        urlkr: /dxl/x/xd430-t210/#배선-예시      
+        urlkr: /dxl/x/xd430-t210/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xd430-t210/#what-is-the-profile
@@ -10266,7 +11032,7 @@ xd430-t350:
           url: /dxl/x/xd430-t350/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xd430-t350/#startup-configuration60       
+          url: /dxl/x/xd430-t350/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xd430-t350/#shutdown63
@@ -10350,7 +11116,7 @@ xd430-t350:
           url: /dxl/x/xd430-t350/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xd430-t350/#backup-ready147         
+          url: /dxl/x/xd430-t350/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xd430-t350/#indirect-address
@@ -10374,7 +11140,7 @@ xd430-t350:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xd430-t350/#idler-horn-assembly
-            urlkr: /dxl/x/xd430-t350/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xd430-t350/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xd430-t350/#frame-assembly
@@ -10387,7 +11153,7 @@ xd430-t350:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xd430-t350/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xd430-t350/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xd430-t350/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xd430-t350/#hinge-frame-assembly
@@ -10420,7 +11186,7 @@ xd430-t350:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xd430-t350/#wiring-through-back-case
-        urlkr: /dxl/x/xd430-t350/#배선-예시      
+        urlkr: /dxl/x/xd430-t350/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xd430-t350/#what-is-the-profile
@@ -10553,7 +11319,7 @@ xh430-v210:
           url: /dxl/x/xh430-v210/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh430-v210/#startup-configuration60    
+          url: /dxl/x/xh430-v210/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh430-v210/#shutdown63
@@ -10637,7 +11403,7 @@ xh430-v210:
           url: /dxl/x/xh430-v210/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh430-v210/#backup-ready147        
+          url: /dxl/x/xh430-v210/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xh430-v210/#indirect-address
@@ -10661,7 +11427,7 @@ xh430-v210:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh430-v210/#idler-horn-assembly
-            urlkr: /dxl/x/xh430-v210/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh430-v210/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh430-v210/#frame-assembly
@@ -10674,7 +11440,7 @@ xh430-v210:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh430-v210/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh430-v210/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh430-v210/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh430-v210/#hinge-frame-assembly
@@ -10707,7 +11473,7 @@ xh430-v210:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh430-v210/#wiring-through-back-case
-        urlkr: /dxl/x/xh430-v210/#배선-예시      
+        urlkr: /dxl/x/xh430-v210/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh430-v210/#what-is-the-profile
@@ -10836,7 +11602,7 @@ xh430-v350:
           url: /dxl/x/xh430-v350/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh430-v350/#startup-configuration60       
+          url: /dxl/x/xh430-v350/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh430-v350/#shutdown63
@@ -10920,7 +11686,7 @@ xh430-v350:
           url: /dxl/x/xh430-v350/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh430-v350/#backup-ready147        
+          url: /dxl/x/xh430-v350/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xh430-v350/#indirect-address
@@ -10944,7 +11710,7 @@ xh430-v350:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh430-v350/#idler-horn-assembly
-            urlkr: /dxl/x/xh430-v350/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh430-v350/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh430-v350/#frame-assembly
@@ -10957,7 +11723,7 @@ xh430-v350:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh430-v350/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh430-v350/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh430-v350/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh430-v350/#hinge-frame-assembly
@@ -10990,7 +11756,7 @@ xh430-v350:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh430-v350/#wiring-through-back-case
-        urlkr: /dxl/x/xh430-v350/#배선-예시      
+        urlkr: /dxl/x/xh430-v350/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh430-v350/#what-is-the-profile
@@ -11119,7 +11885,7 @@ xh430-w210:
           url: /dxl/x/xh430-w210/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh430-w210/#startup-configuration60          
+          url: /dxl/x/xh430-w210/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh430-w210/#shutdown63
@@ -11203,7 +11969,7 @@ xh430-w210:
           url: /dxl/x/xh430-w210/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh430-w210/#backup-ready147        
+          url: /dxl/x/xh430-w210/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xh430-w210/#indirect-address
@@ -11227,7 +11993,7 @@ xh430-w210:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh430-w210/#idler-horn-assembly
-            urlkr: /dxl/x/xh430-w210/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh430-w210/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh430-w210/#frame-assembly
@@ -11240,7 +12006,7 @@ xh430-w210:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh430-w210/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh430-w210/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh430-w210/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh430-w210/#hinge-frame-assembly
@@ -11273,7 +12039,7 @@ xh430-w210:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh430-w210/#wiring-through-back-case
-        urlkr: /dxl/x/xh430-w210/#배선-예시      
+        urlkr: /dxl/x/xh430-w210/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh430-w210/#what-is-the-profile
@@ -11406,7 +12172,7 @@ xh430-w350:
           url: /dxl/x/xh430-w350/#minmax-position-limit48-52
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh430-w350/#startup-configuration60       
+          url: /dxl/x/xh430-w350/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh430-w350/#shutdown63
@@ -11490,7 +12256,7 @@ xh430-w350:
           url: /dxl/x/xh430-w350/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh430-w350/#backup-ready147         
+          url: /dxl/x/xh430-w350/#backup-ready147
         - title: "Indirect Address"
           titlekr: "Indirect Address"
           url: /dxl/x/xh430-w350/#indirect-address
@@ -11514,7 +12280,7 @@ xh430-w350:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh430-w350/#idler-horn-assembly
-            urlkr: /dxl/x/xh430-w350/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh430-w350/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh430-w350/#frame-assembly
@@ -11527,7 +12293,7 @@ xh430-w350:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh430-w350/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh430-w350/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh430-w350/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh430-w350/#hinge-frame-assembly
@@ -11696,7 +12462,7 @@ xh540-w150:
           url: /dxl/x/xh540-w150/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh540-w150/#startup-configuration60         
+          url: /dxl/x/xh540-w150/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh540-w150/#shutdown63
@@ -11780,7 +12546,7 @@ xh540-w150:
           url: /dxl/x/xh540-w150/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh540-w150/#backup-ready147          
+          url: /dxl/x/xh540-w150/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xh540-w150/#external-port-data-123
@@ -11807,7 +12573,7 @@ xh540-w150:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh540-w150/#idler-horn-assembly
-            urlkr: /dxl/x/xh540-w150/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh540-w150/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh540-w150/#frame-assembly
@@ -11820,7 +12586,7 @@ xh540-w150:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh540-w150/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh540-w150/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh540-w150/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh540-w150/#hinge-frame-assembly
@@ -11849,7 +12615,7 @@ xh540-w150:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh540-w150/#wiring-through-back-case
-        urlkr: /dxl/x/xh540-w150/#배선-예시       
+        urlkr: /dxl/x/xh540-w150/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh540-w150/#what-is-the-profile
@@ -11985,7 +12751,7 @@ xh540-w270:
           url: /dxl/x/xh540-w270/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh540-w270/#startup-configuration60         
+          url: /dxl/x/xh540-w270/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh540-w270/#shutdown63
@@ -12069,7 +12835,7 @@ xh540-w270:
           url: /dxl/x/xh540-w270/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh540-w270/#backup-ready147          
+          url: /dxl/x/xh540-w270/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xh540-w270/#external-port-data-123
@@ -12096,7 +12862,7 @@ xh540-w270:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh540-w270/#idler-horn-assembly
-            urlkr: /dxl/x/xh540-w270/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh540-w270/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh540-w270/#frame-assembly
@@ -12109,7 +12875,7 @@ xh540-w270:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh540-w270/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh540-w270/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh540-w270/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh540-w270/#hinge-frame-assembly
@@ -12138,7 +12904,7 @@ xh540-w270:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh540-w270/#wiring-through-back-case
-        urlkr: /dxl/x/xh540-w270/#배선-예시       
+        urlkr: /dxl/x/xh540-w270/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh540-w270/#what-is-the-profile
@@ -12274,7 +13040,7 @@ xh540-v150:
           url: /dxl/x/xh540-v150/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh540-v150/#startup-configuration60       
+          url: /dxl/x/xh540-v150/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh540-v150/#shutdown63
@@ -12358,7 +13124,7 @@ xh540-v150:
           url: /dxl/x/xh540-v150/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh540-v150/#backup-ready147          
+          url: /dxl/x/xh540-v150/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xh540-v150/#external-port-data-123
@@ -12385,7 +13151,7 @@ xh540-v150:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh540-v150/#idler-horn-assembly
-            urlkr: /dxl/x/xh540-v150/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh540-v150/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh540-v150/#frame-assembly
@@ -12398,7 +13164,7 @@ xh540-v150:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh540-v150/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh540-v150/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh540-v150/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh540-v150/#hinge-frame-assembly
@@ -12427,7 +13193,7 @@ xh540-v150:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh540-v150/#wiring-through-back-case
-        urlkr: /dxl/x/xh540-v150/#배선-예시       
+        urlkr: /dxl/x/xh540-v150/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh540-v150/#what-is-the-profile
@@ -12555,7 +13321,7 @@ xh540-v270:
           url: /dxl/x/xh540-v270/#external-port-mode-123565758
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/x/xh540-v270/#startup-configuration60         
+          url: /dxl/x/xh540-v270/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/x/xh540-v270/#shutdown63
@@ -12639,7 +13405,7 @@ xh540-v270:
           url: /dxl/x/xh540-v270/#present-temperature146
         - title: "Backup Ready(147)"
           titlekr: "Backup Ready(147)"
-          url: /dxl/x/xh540-v270/#backup-ready147      
+          url: /dxl/x/xh540-v270/#backup-ready147
         - title: "External Port Data 1,2,3"
           titlekr: "External Port Data 1,2,3"
           url: /dxl/x/xh540-v270/#external-port-data-123
@@ -12666,7 +13432,7 @@ xh540-v270:
           - title: "Idler Horn Assembly"
             titlekr: "아이들러 혼 조립하기"
             url: /dxl/x/xh540-v270/#idler-horn-assembly
-            urlkr: /dxl/x/xh540-v270/#아이들러-혼-조립하기            
+            urlkr: /dxl/x/xh540-v270/#아이들러-혼-조립하기
       - title: "Frame Assembly"
         titlekr: "프레임 조립하기"
         url: /dxl/x/xh540-v270/#frame-assembly
@@ -12679,7 +13445,7 @@ xh540-v270:
           - title: "Precaution of Frame and Horn Assembly"
             titlekr: "프레임과 혼 결합 시 주의 사항"
             url: /dxl/x/xh540-v270/#precaution-of-frame-and-horn-assembly
-            urlkr: /dxl/x/xh540-v270/#프레임과-혼-결합-시-주의-사항    
+            urlkr: /dxl/x/xh540-v270/#프레임과-혼-결합-시-주의-사항
           - title: "Hinge Frame Assembly"
             titlekr: "힌지 프레임 조립하기"
             url: /dxl/x/xh540-v270/#hinge-frame-assembly
@@ -12708,7 +13474,7 @@ xh540-v270:
       - title: "Wiring through Back Case"
         titlekr: "배선 예시"
         url: /dxl/x/xh540-v270/#wiring-through-back-case
-        urlkr: /dxl/x/xh540-v270/#배선-예시       
+        urlkr: /dxl/x/xh540-v270/#배선-예시
       - title: "What is the Profile"
         titlekr: "Profile"
         url: /dxl/x/xh540-v270/#what-is-the-profile
@@ -16334,7 +17100,7 @@ ph54-200-s500-r:
           url: /dxl/p/ph54-200-s500-r/#return-delay-time9
         - title: "Drive Mode(10)"
           titlekr: "Drive Mode(10)"
-          url: /dxl/p/ph54-200-s500-r/#drive-mode10        
+          url: /dxl/p/ph54-200-s500-r/#drive-mode10
         - title: "Operating Mode(11)"
           titlekr: "Operating Mode(11)"
           url: /dxl/p/ph54-200-s500-r/#operating-mode11
@@ -16466,7 +17232,7 @@ ph54-200-s500-r:
           url: /dxl/p/ph54-200-s500-r/#present-temperature594
         - title: "Backup Ready(878)"
           titlekr: "Backup Ready(878)"
-          url: /dxl/p/ph54-200-s500-r/#backup-ready878    
+          url: /dxl/p/ph54-200-s500-r/#backup-ready878
 - title: "How to Assemble"
   titlekr: "조립 예시"
   url: /dxl/p/ph54-200-s500-r/#how-to-assemble
@@ -16735,7 +17501,7 @@ ph54-100-s500-r:
     - title: "What is the Profile"
       titlekr: "Profile"
       url: /dxl/p/ph54-100-s500-r/#what-is-the-profile
-      urlkr: /dxl/p/ph54-100-s500-r/#profile    
+      urlkr: /dxl/p/ph54-100-s500-r/#profile
     - title: "Certifications"
       titlekr: "인증 획득"
       url: /dxl/p/ph54-100-s500-r/#certifications
@@ -16828,7 +17594,7 @@ ph42-020-s300-r:
           url: /dxl/p/ph42-020-s300-r/#return-delay-time9
         - title: "Drive Mode(10)"
           titlekr: "Drive Mode(10)"
-          url: /dxl/p/ph42-020-s300-r/#drive-mode10                
+          url: /dxl/p/ph42-020-s300-r/#drive-mode10
         - title: "Operating Mode(11)"
           titlekr: "Operating Mode(11)"
           url: /dxl/p/ph42-020-s300-r/#operating-mode11
@@ -16870,7 +17636,7 @@ ph42-020-s300-r:
           url: /dxl/p/ph42-020-s300-r/#external-port-mode-external-port-data-56-57-58-59
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/p/ph42-020-s300-r/#startup-configuration60        
+          url: /dxl/p/ph42-020-s300-r/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/p/ph42-020-s300-r/#shutdown63
@@ -16960,7 +17726,7 @@ ph42-020-s300-r:
           url: /dxl/p/ph42-020-s300-r/#present-temperature594
         - title: "Backup Ready(878)"
           titlekr: "Backup Ready(878)"
-          url: /dxl/p/ph42-020-s300-r/#backup-ready878          
+          url: /dxl/p/ph42-020-s300-r/#backup-ready878
 - title: "How to Assemble"
   titlekr: "조립 예시"
   url: /dxl/p/ph42-020-s300-r/#how-to-assemble
@@ -16982,7 +17748,7 @@ ph42-020-s300-r:
     - title: "What is the Profile"
       titlekr: "Profile"
       url: /dxl/p/ph42-020-s300-r/#what-is-the-profile
-      urlkr: /dxl/p/ph42-020-s300-r/#profile    
+      urlkr: /dxl/p/ph42-020-s300-r/#profile
     - title: "Certifications"
       titlekr: "인증 획득"
       url: /dxl/p/ph42-020-s300-r/#certifications
@@ -17074,7 +17840,7 @@ pm42-010-s260-r:
           url: /dxl/p/pm42-010-s260-r/#return-delay-time9
         - title: "Drive Mode(10)"
           titlekr: "Drive Mode(10)"
-          url: /dxl/p/pm42-010-s260-r/#drive-mode10                        
+          url: /dxl/p/pm42-010-s260-r/#drive-mode10
         - title: "Operating Mode(11)"
           titlekr: "Operating Mode(11)"
           url: /dxl/p/pm42-010-s260-r/#operating-mode11
@@ -17116,7 +17882,7 @@ pm42-010-s260-r:
           url: /dxl/p/pm42-010-s260-r/#external-port-mode-external-port-data-56-57-58-59
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/p/pm42-010-s260-r/#startup-configuration60                  
+          url: /dxl/p/pm42-010-s260-r/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/p/pm42-010-s260-r/#shutdown63
@@ -17206,7 +17972,7 @@ pm42-010-s260-r:
           url: /dxl/p/pm42-010-s260-r/#present-temperature594
         - title: "Backup Ready(878)"
           titlekr: "Backup Ready(878)"
-          url: /dxl/p/pm42-010-s260-r/#backup-ready878               
+          url: /dxl/p/pm42-010-s260-r/#backup-ready878
 - title: "How to Assemble"
   titlekr: "조립 예시"
   url: /dxl/p/pm42-010-s260-r/#how-to-assemble
@@ -17228,7 +17994,7 @@ pm42-010-s260-r:
     - title: "What is the Profile"
       titlekr: "Profile"
       url: /dxl/p/pm42-010-s260-r/#what-is-the-profile
-      urlkr: /dxl/p/pm42-010-s260-r/#profile        
+      urlkr: /dxl/p/pm42-010-s260-r/#profile
     - title: "Certifications"
       titlekr: "인증 획득"
       url: /dxl/p/pm42-010-s260-r/#certifications
@@ -17320,7 +18086,7 @@ pm54-040-s250-r:
           url: /dxl/p/pm54-040-s250-r/#return-delay-time9
         - title: "Drive Mode(10)"
           titlekr: "Drive Mode(10)"
-          url: /dxl/p/pm54-040-s250-r/#drive-mode10                                  
+          url: /dxl/p/pm54-040-s250-r/#drive-mode10
         - title: "Operating Mode(11)"
           titlekr: "Operating Mode(11)"
           url: /dxl/p/pm54-040-s250-r/#operating-mode11
@@ -17362,7 +18128,7 @@ pm54-040-s250-r:
           url: /dxl/p/pm54-040-s250-r/#external-port-mode-external-port-data-56-57-58-59
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/p/pm54-040-s250-r/#startup-configuration60                            
+          url: /dxl/p/pm54-040-s250-r/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/p/pm54-040-s250-r/#shutdown63
@@ -17452,7 +18218,7 @@ pm54-040-s250-r:
           url: /dxl/p/pm54-040-s250-r/#present-temperature594
         - title: "Backup Ready(878)"
           titlekr: "Backup Ready(878)"
-          url: /dxl/p/pm54-040-s250-r/#backup-ready878                         
+          url: /dxl/p/pm54-040-s250-r/#backup-ready878
 - title: "How to Assemble"
   titlekr: "조립 예시"
   url: /dxl/p/pm54-040-s250-r/#how-to-assemble
@@ -17474,7 +18240,7 @@ pm54-040-s250-r:
     - title: "What is the Profile"
       titlekr: "Profile"
       url: /dxl/p/pm54-040-s250-r/#what-is-the-profile
-      urlkr: /dxl/p/pm54-040-s250-r/#profile            
+      urlkr: /dxl/p/pm54-040-s250-r/#profile
     - title: "Certifications"
       titlekr: "인증 획득"
       url: /dxl/p/pm54-040-s250-r/#certifications
@@ -17566,7 +18332,7 @@ pm54-060-s250-r:
           url: /dxl/p/pm54-060-s250-r/#return-delay-time9
         - title: "Drive Mode(10)"
           titlekr: "Drive Mode(10)"
-          url: /dxl/p/pm54-060-s250-r/#drive-mode10                                  
+          url: /dxl/p/pm54-060-s250-r/#drive-mode10
         - title: "Operating Mode(11)"
           titlekr: "Operating Mode(11)"
           url: /dxl/p/pm54-060-s250-r/#operating-mode11
@@ -17608,7 +18374,7 @@ pm54-060-s250-r:
           url: /dxl/p/pm54-060-s250-r/#external-port-mode-external-port-data-56-57-58-59
         - title: "Startup Configuration(60)"
           titlekr: "Startup Configuration(60)"
-          url: /dxl/p/pm54-060-s250-r/#startup-configuration60        
+          url: /dxl/p/pm54-060-s250-r/#startup-configuration60
         - title: "Shutdown(63)"
           titlekr: "Shutdown(63)"
           url: /dxl/p/pm54-060-s250-r/#shutdown63
@@ -17698,7 +18464,7 @@ pm54-060-s250-r:
           url: /dxl/p/pm54-060-s250-r/#present-temperature594
         - title: "Backup Ready(878)"
           titlekr: "Backup Ready(878)"
-          url: /dxl/p/pm54-060-s250-r/#backup-ready878                                   
+          url: /dxl/p/pm54-060-s250-r/#backup-ready878
 - title: "How to Assemble"
   titlekr: "조립 예시"
   url: /dxl/p/pm54-060-s250-r/#how-to-assemble
@@ -17720,7 +18486,7 @@ pm54-060-s250-r:
     - title: "What is the Profile"
       titlekr: "Profile"
       url: /dxl/p/pm54-060-s250-r/#what-is-the-profile
-      urlkr: /dxl/p/pm54-060-s250-r/#profile              
+      urlkr: /dxl/p/pm54-060-s250-r/#profile
     - title: "Certifications"
       titlekr: "인증 획득"
       url: /dxl/p/pm54-060-s250-r/#certifications
@@ -17921,7 +18687,7 @@ protocol2:
         url: /dxl/protocol2/#bulk-write-0x93
       - title: "Fast Bulk Read (0x9A)"
         titlekr: "Fast Bulk Read (0x9A)"
-        url: /dxl/protocol2/#fast-bulk-read-0x9a     
+        url: /dxl/protocol2/#fast-bulk-read-0x9a
 
 all-edu:
   - title: "PLAY"
@@ -21043,10 +21809,10 @@ openmanipulator_x:
   - title: "Overview"
     url: /platform/openmanipulator_x/overview
     children:
-    - title: "OpenSoftware"
-      url: /platform/openmanipulator_x/overview/#opensoftware
-    - title: "OpenHardware"
-      url: /platform/openmanipulator_x/overview/#openhardware
+    - title: "Open Source Software"
+      url: /platform/openmanipulator_x/overview/#open-source-software
+    - title: "Open Source Hardware"
+      url: /platform/openmanipulator_x/overview/#open-source-hardware
     - title: "OpenCR (Embedded board)"
       url: /platform/openmanipulator_x/overview/#opencr-embedded-board
     - title: "DYNAMIXEL Examples"
@@ -21060,6 +21826,8 @@ openmanipulator_x:
       url: /platform/openmanipulator_x/specification/#hardware-specification
     - title: "Dimension"
       url: /platform/openmanipulator_x/specification/#dimension
+    - title: "Inertia"
+      url: /platform/openmanipulator_x/specification/#inertia
   - title: "Assembly"
     url: /platform/openmanipulator_x/assembly
     children:
@@ -25128,6 +25896,19 @@ dynamixel_wizard2:
             titlekr: "다이나믹셀 설정"
             url: /software/dynamixel/dynamixel_wizard2/#dynamixel-setting
             urlkr: /software/dynamixel/dynamixel_wizard2/#다이나믹셀-설정
+      - title: "Logging"
+        titlekr: "로깅"
+        url: /software/dynamixel/dynamixel_wizard2/#logging
+        urlkr: /software/dynamixel/dynamixel_wizard2/#로깅
+        children:
+          - title: "Gragh Logging"
+            titlekr: "그래프 로깅"
+            url: /software/dynamixel/dynamixel_wizard2/#gragh-logging
+            urlkr: /software/dynamixel/dynamixel_wizard2/#그래프-로깅
+          - title: "Packet Logging"
+            titlekr: "패킷 로깅"
+            url: /software/dynamixel/dynamixel_wizard2/#packet-logging
+            urlkr: /software/dynamixel/dynamixel_wizard2/#패킷-로깅      
 
 #ZIGBEE SDK sidebar
 zigbee_sdk:
@@ -25702,7 +26483,7 @@ cm-200:
     urlkr: /parts/controller/cm-200/#전원-연결
   - title: "How to Operate"
     url: /parts/controller/cm-200/#how-to-operate
-    children: 
+    children:
       - title: "How to Download Task Files"
         url: /parts/controller/cm-200/#how-to-download-task-files
       - title: "How to Download Motion Files"
@@ -26236,9 +27017,9 @@ openrb-150:
       url: /parts/controller/openrb-150/#serial-port
       urlkr: /parts/controller/openrb-150/#시리얼-포트
     - title: "LEDs"
-      titlekr: "LEDs"
+      titlekr: "LED"
       url: /parts/controller/openrb-150/#leds
-      urlkr: /parts/controller/openrb-150/#leds
+      urlkr: /parts/controller/openrb-150/#led
   - title: "Pin Name Definitions"
     titlekr: "핀 이름 정의"
     url: /parts/controller/openrb-150/#pin-name-definitions
@@ -26253,9 +27034,9 @@ openrb-150:
       url: /parts/controller/openrb-150/#connection-examples
       urlkr: /parts/controller/openrb-150/#연결-예시
   - title: "Development Environment"
-    titlekr: "개발 환경 설정"
+    titlekr: "개발 환경"
     url: /parts/controller/openrb-150/#development-environment
-    urlkr: /parts/controller/openrb-150/#개발-환경-설정
+    urlkr: /parts/controller/openrb-150/#개발-환경
     children:
     - title: "DYNAMIXEL Wizard 2.0"
       titlekr: "다이나믹셀 위자드 2.0"
@@ -26279,7 +27060,9 @@ openrb-150:
         url: /parts/controller/openrb-150/#install-on-windows
         urlkr: /parts/controller/openrb-150/#윈도우즈에-설치하기
     - title: "Install Board Manager"
+      titlekr: "보드 매니저 설치하기"
       url: /parts/controller/openrb-150/#install-board-manager
+      urlkr: /parts/controller/openrb-150/#보드-매니저-설치하기
     - title: "Library API"
       titlekr: "라이브러리 API"
       url: /parts/controller/openrb-150/#library-api
@@ -26292,7 +27075,7 @@ openrb-150:
     - title: "Upload Sketch"
       titlekr: "스케치 업로드하기"
       url: /parts/controller/openrb-150/#upload-sketch
-      urlkr: /parts/controller/openrb-150/#스케치-업로드하기  
+      urlkr: /parts/controller/openrb-150/#스케치-업로드하기
   - title: "Downloads"
     titlekr: "다운로드"
     url: /parts/controller/openrb-150/#downloads
@@ -26945,6 +27728,19 @@ dynamixel_shield:
         titlekr: 다이나믹셀 쉴드(v0.0.5)
         url: /parts/interface/dynamixel_shield/#dynamixelshieldv005
         urlkr: /parts/interface/dynamixel_shield/#다이나믹셀-쉴드v005
+  - title: "Reference"
+    titlekr: "참고자료"
+    url: /parts/interface/dynamixel_shield/#reference
+    urlkr: /parts/interface/dynamixel_shield/#참고자료
+    children:
+    - title: "DYNAMIXEL Connectors"
+      titlekr: "커넥터 정보"
+      url: /parts/interface/dynamixel_shield/#dynamixel-connectors
+      urlkr: /parts/interface/dynamixel_shield/#커넥터-정보
+    - title: "Communication Circuit"
+      titlekr: "통신 회로"
+      url: /parts/interface/dynamixel_shield/#communication-circuit
+      urlkr: /parts/interface/dynamixel_shield/#통신-회로
 
 mkr_shield:
   - title: "Introduction"
@@ -27077,7 +27873,7 @@ dxl_bridge:
       titlekr: "커넥터 정보"
       url: /parts/interface/dxl_bridge/#connector-information
       urlkr: /parts/interface/dxl_bridge/#커넥터-정보
-    
+
 opencm7:
   - titlekr: "개요"
     urlkr: /parts/controller/opencm7/#개요
@@ -27355,6 +28151,51 @@ bt-410-dongle:
       titlekr: "인증 획득"
       url: /parts/communication/bt-410-dongle/#certifications
       urlkr: /parts/communication/bt-410-dongle/#인증-획득
+
+#BT-430 Dongle sidebar
+bt-430-dongle:
+  - title: "Introduction"
+    titlekr: "개요"
+    # url: /parts/communication/bt-430-dongle/#introduction
+    urlkr: /parts/communication/bt-430-dongle/#개요
+  - title: "Specifications"
+    titlekr: "제품 사양"
+    # url: /parts/communication/bt-410-dongle/#specifications
+    urlkr: /parts/communication/bt-430-dongle/#제품-사양
+  - title: "Compatibility"
+    titlekr: "호환성"
+    # url: /parts/communication/bt-430-dongle/#compatibility
+    urlkr: /parts/communication/bt-430-dongle/#호환성
+  - title: "Communication Mode"
+    titlekr: "통신 모드"
+    # url: /parts/communication/bt-430-dongle/#communication-mode
+    urlkr: /parts/communication/bt-430-dongle/#통신-모드
+  - title: "BT-410 Dongle Setting"
+    titlekr: "BT-430 동글 설정하기"
+    # url: /parts/communication/bt-430-dongle/#bt-430-dongle-setting
+    urlkr: /parts/communication/bt-430-dongle/#bt-430-동글-설정하기
+  - title: "AT Commands"
+    titlekr: "AT 명령어"
+    # url: /parts/communication/bt-430-dongle/#at-commands
+    urlkr: /parts/communication/bt-430-dongle/#at-명령어
+  - title: "Check Driver"
+    titlekr: "드라이버 설치 확인방법"
+    # url: /parts/communication/bt-430-dongle/#check-driver
+    urlkr: /parts/communication/bt-430-dongle/#드라이버-설치-확인방법
+  - title: "Install Driver Manually"
+    titlekr: "드라이버 수동 설치"
+    # url: /parts/communication/bt-430-dongle/#install-driver-manually
+    urlkr: /parts/communication/bt-430-dongle/#드라이버-수동-설치
+  - title: "References"
+    titlekr: "참고자료"
+    # url: /parts/communication/bt-430-dongle/#references
+    urlkr: /parts/communication/bt-430-dongle/#참고자료
+    children:
+    - title: "Certifications"
+      titlekr: "인증 획득"
+      # url: /parts/communication/bt-430-dongle/#certifications
+      urlkr: /parts/communication/bt-430-dongle/#인증-획득
+
 
 #ZIG2Serial sidebar
 zig2serial:
@@ -27887,7 +28728,7 @@ dyd-14:
     titlekr: "옵션 및 조립공차"
     url: /all-dyd/dyd-14/#options--assembly-tolerance
     urlkr: /all-dyd/dyd-14/#옵션-및-조립공차
-    
+
 dyd-17:
   - title: "Overview"
     titlekr: "개요"
@@ -27963,7 +28804,7 @@ dxl-selection-guide:
     titlekr: "시작하기"
     url: /reference/dxl-selection-guide/#getting-started
     urlkr: /reference/dxl-selection-guide/#시작하기
-    children:  
+    children:
       - title: "e-Shop"
         titlekr: "스토어"
         url: /reference/dxl-selection-guide/#e-shop
@@ -27972,7 +28813,7 @@ dxl-selection-guide:
     titlekr: "다이나믹셀 "
     url: /reference/dxl-selection-guide/#dynamixel
     urlkr: /reference/dxl-selection-guide/#다이나믹셀-
-    children:  
+    children:
       - title: "Models"
         titlekr: "모델"
         url: /reference/dxl-selection-guide/#models
@@ -27982,7 +28823,7 @@ dxl-selection-guide:
         url: /reference/dxl-selection-guide/#performance
         urlkr: /reference/dxl-selection-guide/#성능-그래프
       - title: "Communication"
-        titlekr: "통신"      
+        titlekr: "통신"
         url: /reference/dxl-selection-guide/#communication
         urlkr: /reference/dxl-selection-guide/#통신
         children:
@@ -27991,7 +28832,7 @@ dxl-selection-guide:
           url: /reference/dxl-selection-guide/#ttl
           urlkr: /reference/dxl-selection-guide/#ttl
         - title: "RS-485"
-          titlekr: "RS-485"        
+          titlekr: "RS-485"
           url: /reference/dxl-selection-guide/#rs-485
           urlkr: /reference/dxl-selection-guide/#rs-485
   - title: "Power"
@@ -28033,12 +28874,12 @@ dxl-selection-guide:
     titlekr: "제어기와 인터페이스"
     url: /reference/dxl-selection-guide/#controller--interface
     urlkr: /reference/dxl-selection-guide/#제어기와-인터페이스
-    children:  
+    children:
       - title: "Interfaces"
         titlekr: "인터페이스"
         url: /reference/dxl-selection-guide/#interfaces
-        urlkr: /reference/dxl-selection-guide/#인터페이스        
-        children:      
+        urlkr: /reference/dxl-selection-guide/#인터페이스
+        children:
         - title: "U2D2"
           titlekr: "U2D2"
           url: /reference/dxl-selection-guide/#u2d2
@@ -28051,9 +28892,11 @@ dxl-selection-guide:
         titlekr: "임베디드 제어기"
         url: /reference/dxl-selection-guide/#embedded-controllers
         urlkr: /reference/dxl-selection-guide/#임베디드-제어기
-        children: 
-        # - title: "OpenRB-150"
-        #   url: /reference/dxl-selection-guide/#openrb-150       
+        children:
+        - title: "OpenRB-150"
+          titlekr: "OpenRB-150"
+          url: /reference/dxl-selection-guide/#openrb-150
+          urlkr: /reference/dxl-selection-guide/#openrb-150
         - title: "OpenCR1.0"
           titlekr: "OpenCR1.0"
           url: /reference/dxl-selection-guide/#opencr10
@@ -28064,7 +28907,7 @@ dxl-selection-guide:
           urlkr: /reference/dxl-selection-guide/#opencm904
       - title: "Educational"
         titlekr: "교육용"
-        url: /reference/dxl-selection-guide/#educational  
+        url: /reference/dxl-selection-guide/#educational
         urlkr: /reference/dxl-selection-guide/#교육용
         children:
           - title: "CM Series"
@@ -28079,61 +28922,61 @@ dxl-selection-guide:
     titlekr: "소프트웨어와 도구"
     url: /reference/dxl-selection-guide/#software--tools
     urlkr: /reference/dxl-selection-guide/#소프트웨어와-도구
-    children: 
+    children:
     - title: "Test & Management"
       titlekr: "테스트 및 관리 도구"
       url: /reference/dxl-selection-guide/#test--management
       urlkr: /reference/dxl-selection-guide/#테스트-및-관리-도구
-      children: 
+      children:
       - title: "DYNAMIXEL Wizard 2.0"
         titlekr: "DYNAMIXEL Wizard 2.0"
         url: /reference/dxl-selection-guide/#dynamixel-wizard-20
-        urlkr: /reference/dxl-selection-guide/#dynamixel-wizard-20        
+        urlkr: /reference/dxl-selection-guide/#dynamixel-wizard-20
       - title: "R+ Manager 2.0"
         titlekr: "R+ Manager 2.0"
         url: /reference/dxl-selection-guide/#r-manager-20
         urlkr: /reference/dxl-selection-guide/#r-manager-20
     - title: "DYNAMIXEL Development"
       titlekr: "개발 도구"
-      url: /reference/dxl-selection-guide/#dynamixel-development     
+      url: /reference/dxl-selection-guide/#dynamixel-development
       urlkr: /reference/dxl-selection-guide/#개발-도구
-      children: 
+      children:
         - title: "DYNAMIXEL SDK"
           titlekr: "다이나믹셀 SDK"
           url: /reference/dxl-selection-guide/#dynamixel-sdk
-          urlkr: /reference/dxl-selection-guide/#다이나믹셀-sdk          
+          urlkr: /reference/dxl-selection-guide/#다이나믹셀-sdk
         - title: "Arduino Library"
           titlekr: "아두이노 라이브러리"
           url: /reference/dxl-selection-guide/#arduino-library
-          urlkr: /reference/dxl-selection-guide/#아두이노-라이브러리         
-          children: 
+          urlkr: /reference/dxl-selection-guide/#아두이노-라이브러리
+          children:
           - title: "Dynamixel2Arduino"
             titlekr: "Dynamixel2Arduino"
             url: /reference/dxl-selection-guide/#dynamixel2arduino
-            urlkr: /reference/dxl-selection-guide/#dynamixel2arduino            
+            urlkr: /reference/dxl-selection-guide/#dynamixel2arduino
           - title: "DynamixelShield"
             titlekr: "DynamixelShield"
             url: /reference/dxl-selection-guide/#dynamixelshield
-            urlkr: /reference/dxl-selection-guide/#dynamixelshield            
+            urlkr: /reference/dxl-selection-guide/#dynamixelshield
     - title: "Educational Software"
       titlekr: "교육용 소프트웨어"
       url: /reference/dxl-selection-guide/#educational-software
       urlkr: /reference/dxl-selection-guide/#교육용-소프트웨어
-      children: 
+      children:
       - title: "R+ Software Suite"
         titlekr: "로보플러스"
         url: /reference/dxl-selection-guide/#r-software-suite
-        urlkr: /reference/dxl-selection-guide/#로보플러스                    
+        urlkr: /reference/dxl-selection-guide/#로보플러스
 
-dxl-quick-start-guide: 
+dxl-quick-start-guide:
   - title: "Getting Started"
     url: /dxl/dxl-quick-start-guide/#getting-started
-    children: 
-      - title: "Archive"
-        url: /dxl/dxl-quick-start-guide/#archive
+    children:
+      - title: "Index"
+        url: /dxl/dxl-quick-start-guide/#index
   - title: "DYNAMIXEL SDK"
     url: /dxl/dxl-quick-start-guide/#dynamixel-sdk
-    children: 
+    children:
       - title: "C"
         url: /dxl/dxl-quick-start-guide/#c
       - title: "C++"
@@ -28152,14 +28995,14 @@ dxl-quick-start-guide:
         url: /dxl/dxl-quick-start-guide/#ros
   - title: "Arduino Library"
     url: /dxl/dxl-quick-start-guide/#arduino-library
-    children: 
+    children:
       - title: "Dynamixel2Arduino"
         url: /dxl/dxl-quick-start-guide/#dynamixel2arduino
       - title: "DynamixelShield"
         url: /dxl/dxl-quick-start-guide/#dynamixelshield
   - title: "DYNAMIXEL Wizard 2.0"
     url: /dxl/dxl-quick-start-guide/#dynamixel-wizard-20
-    children: 
+    children:
       - title: "Firmware Recovery"
         url: /dxl/dxl-quick-start-guide/#firmware-recovery
 
